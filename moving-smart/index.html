@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>title</title>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"
+        ></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/gsap@3.12.2/dist/ScrollToPlugin.min.js"></script>
+
+        <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        ></script>
+        <script type="text/javascript" src="./new/js/util.lib.js"></script>
+        <script type="text/javascript" src="./new/js/common.js"></script>
+        <script type="text/javascript" src="./new/js/main.js"></script>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        />
+        <link rel="stylesheet" type="text/css" href="./new/css/p_style.css" />
+
+        <script>
+            const __baseRoot = '/new'
+            const __basePath = '/new'
+        </script>
+    </head>
+    <body class="intro-animation">
+        <div id="wrap">
+            <header class="header">
+                <div class="header-wrap main">
+                    <div class="logo">
+                        <a href="/new/main/" class="logo_img">스마트통증의학과</a>
+                    </div>
+                    <div class="header container">
+                        <ul id="gnb">
+                            <li class="main_menu">
+                                <a href="/new/sub/01/01.html" class="titDot">스마트의 자신감</a>
+                                <ul class="depth02">
+                                    <li><a href="/new/sub/01/01.html">꼼꼼한검사 시스템</a></li>
+                                    <li><a href="/new/sub/01/02.html">스마트 과학 치료</a></li>
+                                    <li><a href="/new/sub/01/03.html">영양 플러스 치료</a></li>
+                                    <li><a href="/new/sub/01/04.html">당일 입원 치료</a></li>
+                                    <li><a href="/new/sub/01/05.html">케이스별 집중치료</a></li>
+                                </ul>
+                            </li>
+                            <li class="main_menu">
+                                <a href="/new/sub/02/01.html" class="titDot">목·허리 디스크 클리닉</a>
+                                <ul class="depth02">
+                                    <li><a href="/new/sub/02/01.html">스마트의 치료 관점</a></li>
+                                    <li><a href="/new/sub/02/02.html">이 증상이 디스크?</a></li>
+                                    <li><a href="/new/sub/02/03.html">목허리디스크</a></li>
+                                    <li><a href="/new/sub/02/04.html">척추관 협착증</a></li>
+                                    <li><a href="/new/sub/02/05.html">일자목 증후군</a></li>
+                                </ul>
+                            </li>
+                            <li class="main_menu">
+                                <a href="/new/sub/03/01.html" class="titDot">부위별 통증 치료</a>
+                                <ul class="depth02">
+                                    <li><a href="/new/sub/03/01.html">목</a></li>
+                                    <li><a href="/new/sub/03/02.html">허리</a></li>
+                                    <li><a href="/new/sub/03/03.html">어깨</a></li>
+                                    <li><a href="/new/sub/03/04.html">팔·손</a></li>
+                                    <li><a href="/new/sub/03/05.html">무릎</a></li>
+                                    <li><a href="/new/sub/03/06.html">발·발목</a></li>
+                                    <li><a href="/new/sub/03/07.html">두통</a></li>
+                                </ul>
+                            </li>
+                            <li class="main_menu">
+                                <a href="/new/sub/04/01.html" class="titDot">비수술 치료</a>
+                                <ul class="depth02">
+                                    <li><a href="/new/sub/04/01.html">신경치료술</a></li>
+                                    <li><a href="/new/sub/04/02.html">신경성형술</a></li>
+                                    <li><a href="/new/sub/04/03.html">주사치료</a></li>
+                                    <li><a href="/new/sub/04/04.html">체외충격파치료</a></li>
+                                    <li><a href="/new/sub/04/05.html">신장분사치료</a></li>
+                                </ul>
+                            </li>
+                            <li class="main_menu">
+                                <a href="/new/sub/05/01.html" class="titDot">도수·재활 클리닉</a>
+                                <ul class="depth02">
+                                    <li><a href="/new/sub/05/01.html">도수재활치료</a></li>
+                                    <li><a href="/new/sub/05/02.html">슬링운동치료</a></li>
+                                    <li><a href="/new/sub/05/03.html">스포츠 재활</a></li>
+                                    <li><a href="/new/sub/05/04.html">수술 후 재활</a></li>
+                                </ul>
+                            </li>
+                            <li class="main_menu">
+                                <a href="/new/sub/06/01.html" class="titDot">스마트 소개</a>
+                                <ul class="depth02">
+                                    <li><a href="/new/sub/06/01.html">스마트 네크워크 소개</a></li>
+                                    <li><a href="/new/sub/06/02.html">평촌점 안내</a></li>
+                                    <li><a href="/new/sub/06/03.html">안양점 안내</a></li>
+                                    <li><a href="/new/sub/06/04.html">핵심가치 및 비전</a></li>
+                                    <li><a href="/new/sub/06/05.html">비급여항목</a></li>
+                                    <li><a href="/new/sub/06/06_list.html">공지사항</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sub_menuBtn all-menu">
+                        <img src="http://www.smart-pain.com/new/images/common/all_menu.png" class="img_w" />
+                    </div>
+                </div>
+            </header>
+            <aside id="sitemap">
+                <div class="sitemap-menu">
+                    <div class="site-menu01">
+                        <ul>
+                            <li class="depth01">
+                                <a href="/new/sub/01/01.html" class="tit">스마트의 자신감</a>
+                                <div class="depth02">
+                                    <ul>
+                                        <li><a href="/new/sub/01/01.html">꼼꼼한검사 시스템</a></li>
+                                        <li><a href="/new/sub/01/02.html">스마트 과학 치료</a></li>
+                                        <li><a href="/new/sub/01/03.html">영양 플러스 치료</a></li>
+                                        <li><a href="/new/sub/01/04.html">당일 입원 치료</a></li>
+                                        <li><a href="/new/sub/01/05.html">케이스별 집중치료</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="depth01">
+                                <a href="/new/sub/02/01.html" class="tit">목·허리 디스크 클리닉</a>
+                                <div class="depth02">
+                                    <ul>
+                                        <li><a href="/new/sub/02/01.html">스마트의 치료 관점</a></li>
+                                        <li><a href="/new/sub/02/02.html">이 증상이 디스크?</a></li>
+                                        <li><a href="/new/sub/02/03.html">목허리디스크</a></li>
+                                        <li><a href="/new/sub/02/04.html">척추관 협착증</a></li>
+                                        <li><a href="/new/sub/02/05.html">일자목 증후군</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="depth01">
+                                <a href="/new/sub/03/01.html" class="tit">부위별 통증 치료</a>
+                                <div class="depth02">
+                                    <ul>
+                                        <li><a href="/new/sub/03/01.html">목</a></li>
+                                        <li><a href="/new/sub/03/02.html">허리</a></li>
+                                        <li><a href="/new/sub/03/03.html">어깨</a></li>
+                                        <li><a href="/new/sub/03/04.html">팔·손</a></li>
+                                        <li><a href="/new/sub/03/05.html">무릎</a></li>
+                                        <li><a href="/new/sub/03/06.html">발·발목</a></li>
+                                        <li><a href="/new/sub/03/07.html">두통</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="depth01">
+                                <a href="/new/sub/04/01.html" class="tit">비수술 치료</a>
+                                <div class="depth02">
+                                    <ul>
+                                        <li><a href="/new/sub/04/01.html">신경치료술</a></li>
+                                        <li><a href="/new/sub/04/02.html">신경성형술</a></li>
+                                        <li><a href="/new/sub/04/03.html">주사치료</a></li>
+                                        <li><a href="/new/sub/04/04.html">체외충격파치료</a></li>
+                                        <li><a href="/new/sub/04/05.html">신장분사치료</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="depth01">
+                                <a href="/new/sub/05/01.html" class="tit">도수·재활 클리닉</a>
+                                <div class="depth02">
+                                    <ul>
+                                        <li><a href="/new/sub/05/01.html">도수재활치료</a></li>
+                                        <li><a href="/new/sub/05/02.html">슬링운동치료</a></li>
+                                        <li><a href="/new/sub/05/03.html">스포츠 재활</a></li>
+                                        <li><a href="/new/sub/05/04.html">수술 후 재활</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="depth01">
+                                <a href="/new/sub/06/01.html" class="tit">스마트 소개</a>
+                                <div class="depth02">
+                                    <ul>
+                                        <li><a href="/new/sub/06/01.html">스마트 네크워크 소개</a></li>
+                                        <li><a href="/new/sub/06/02.html">평촌점 안내</a></li>
+                                        <li><a href="/new/sub/06/03.html">안양점 안내</a></li>
+                                        <li><a href="/new/sub/06/04.html">핵심가치 및 비전</a></li>
+                                        <li><a href="/new/sub/06/05.html">비급여항목</a></li>
+                                        <li><a href="/new/sub/06/06_list.html">공지사항</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sitemap-close">
+                    <a href="javascript:;"
+                        ><img src="http://www.smart-pain.com/new/images/common/all_menu_close.png"
+                    /></a>
+                </div>
+            </aside>
+            <a href="" class="topBtn"><img src="http://www.smart-pain.com/new/images/main/top_btn.png" /></a>
+            <div class="quickWrap">
+                <p class="quickBtn">
+                    <img src="http://www.smart-pain.com/new/images/main/quick_icon.png" />
+                    <img src="http://www.smart-pain.com/new/images/main/quick_txt.png" class="text" />
+                </p>
+                <div class="quickCont">
+                    <div class="quickClose">
+                        <img src="http://www.smart-pain.com/new/images/main/quick_close.png" alt="close" />
+                    </div>
+                    <p class="tit">스마트마취통증의학과를<br />찾아주셔서 감사합니다. &#128591;</p>
+                    <div class="itemList">
+                        <div class="item">
+                            <div class="flex">
+                                <p>평촌점</p>
+                                <div>
+                                    <a href="https://blog.naver.com/smart_pain" target="_blank"
+                                        ><img
+                                            src="http://www.smart-pain.com/new/images/main/quick_sns01.png"
+                                            alt="instagram"
+                                    /></a>
+                                    <a href="https://www.youtube.com/channel/UCCJnDon2N96lhAugAljZS_w" target="_blank"
+                                        ><img
+                                            src="http://www.smart-pain.com/new/images/main/quick_sns02.png"
+                                            alt="youtube"
+                                    /></a>
+                                </div>
+                            </div>
+                            <h5>031.425.7755</h5>
+                            <a
+                                href="https://m.booking.naver.com/booking/13/bizes/856941?theme=place&area=pll"
+                                target="_blank"
+                                class="resebtn"
+                            >
+                                <img
+                                    src="http://www.smart-pain.com/new/images/main/quick_naver.png"
+                                    alt="naver"
+                                />네이버 예약
+                            </a>
+                        </div>
+                        <div class="item">
+                            <div class="flex">
+                                <p>안양점</p>
+                                <div>
+                                    <a href="https://blog.naver.com/smartpainclinic" target="_blank"
+                                        ><img
+                                            src="http://www.smart-pain.com/new/images/main/quick_sns01.png"
+                                            alt="instagram"
+                                    /></a>
+                                </div>
+                            </div>
+                            <h5>031.466.7555</h5>
+                            <a
+                                href="https://m.booking.naver.com/booking/13/bizes/888179?theme=place&area=pll"
+                                target="_blank"
+                                class="resebtn"
+                            >
+                                <img
+                                    src="http://www.smart-pain.com/new/images/main/quick_naver.png"
+                                    alt="naver"
+                                />네이버 예약
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="main_home Msection1">
+                <div class="borderPadding">
+                    <div class="main_bg_slider main_slider">
+                        <div class="item v1">
+                            <div
+                                class="img"
+                                style="
+                                    background: url('http://www.smart-pain.com/new/images/main/main_slide_01.jpg')
+                                        no-repeat center/cover;
+                                "
+                            ></div>
+                        </div>
+                        <div class="item v2">
+                            <div
+                                class="img"
+                                style="
+                                    background: url('http://www.smart-pain.com/new/images/main/main_slide_02.jpg')
+                                        no-repeat center/cover;
+                                "
+                            ></div>
+                        </div>
+                        <div class="item v3">
+                            <div
+                                class="img"
+                                style="
+                                    background: url('http://www.smart-pain.com/new/images/main/main_slide_03.jpg')
+                                        no-repeat center/cover;
+                                "
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="text_slider_wrap">
+                        <div class="inner">
+                            <div class="main_text_slider main_slider">
+                                <div class="item v1">
+                                    <div class="text_wrap">
+                                        <div class="title1">
+                                            <p>통증, 스마트에서 길을 찾다<span class="orange_color">.</span></p>
+                                        </div>
+                                        <div class="txt1">
+                                            <p>이제 먼 길로 돌아가지 마세요. 스마트가 여러분의 건강을 책임집니다.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item v2">
+                                    <div class="text_wrap">
+                                        <div class="title1">
+                                            <p>
+                                                남다른 관점으로 환자를 바라보는<br />스마트통증의학과입니다<span
+                                                    class="orange_color"
+                                                    >.</span
+                                                >
+                                            </p>
+                                        </div>
+                                        <div class="txt1">
+                                            <p>신체 일부분이 아닌, 전체적인 관점에서 바라보며 치료합니다.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item v3">
+                                    <div class="text_wrap">
+                                        <div class="title1">
+                                            <p>
+                                                정확한 원인 진단을 통해<br />비수술부터 단계적으로 시행합니다<span
+                                                    class="orange_color"
+                                                    >.</span
+                                                >
+                                            </p>
+                                        </div>
+                                        <div class="txt1">
+                                            <p>비수술 우선 치료를 원칙으로 환자의 상태에 따른 맞춤치료를 제공합니다.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="indicator">
+                                <div class="dot"></div>
+                                <button type="button" class="status_wrap"><span class="status stop"></span></button>
+                                <button type="button" class="btn prev"></button>
+                                <button type="button" class="btn next"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="orange_bg"></div>
+            </section>
+            <section class="Msectionnew2">
+                <div class="transition_section">
+                    <div class="flex-box">
+                        <div class="flex-box--wrap">
+                            <p class="panelsText fixedText">
+                                WELCOME TO!<br />
+                                smart pain clinic
+                            </p>
+                            <div class="panel cursor_wrap heightImg"></div>
+                            <div class="panel cursor_wrap hover--eff heightImg">
+                                <a href="/new/sub/06/02.html" data-aos="fade-up" data-aos-duration="400">
+                                    <img
+                                        src="http://www.smart-pain.com/new/images/main/Msection2_img01.png"
+                                        alt="황인성대표원장"
+                                        class="def_img"
+                                    />
+                                    <img
+                                        src="http://www.smart-pain.com/new/images/main/Msection2_img01_hover_n.png"
+                                        alt="황인성대표원장"
+                                        class="hover_img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="panel cursor_wrap hover--eff heightImg">
+                                <a href="/new/sub/06/03.html" data-aos="fade-up" data-aos-duration="400">
+                                    <img
+                                        src="http://www.smart-pain.com/new/images/main/Msection2_img02.png"
+                                        alt="김태준대표원장"
+                                        class="def_img"
+                                    />
+                                    <img
+                                        src="http://www.smart-pain.com/new/images/main/Msection2_img02_hover_n.png"
+                                        alt="김태준대표원장"
+                                        class="hover_img"
+                                    />
+                                </a>
+                            </div>
+                            <div class="panel heightImg">
+                                <div class="loc_wrap" data-aos="fade-up" data-aos-delay="600" data-aos-duration="400">
+                                    <div class="cursor_wrap hover--eff">
+                                        <a href="/new/sub/06/02.html">
+                                            <img
+                                                src="http://www.smart-pain.com/new/images/main/Msection2_img03.png"
+                                                alt="평촌점"
+                                                class="def_img"
+                                            />
+                                            <img
+                                                src="http://www.smart-pain.com/new/images/main/Msection2_img03_hover_n.png"
+                                                alt="평촌점"
+                                                class="hover_img"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div class="cursor_wrap hover--eff">
+                                        <a href="/new/sub/06/03.html">
+                                            <img
+                                                src="http://www.smart-pain.com/new/images/main/Msection2_img04.png"
+                                                alt="안양점"
+                                                class="def_img"
+                                            />
+                                            <img
+                                                src="http://www.smart-pain.com/new/images/main/Msection2_img04_hover_n.png"
+                                                alt="안양점"
+                                                class="hover_img"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel last heightImg smartnetwork">
+                                <div>
+                                    <h1>smart<br />network</h1>
+                                    <p>
+                                        스마트마취통증의학과는 안양시 지역의 대표적인<br />
+                                        비수술 통증치료 네트워크 병원입니다.
+                                    </p>
+                                    <a href="/new/sub/06/01.html">
+                                        <img
+                                            src="http://www.smart-pain.com/new/images/main/Msection2_img04_btntxt.png"
+                                            alt=""
+                                        />
+                                        <!-- <div class="button__bg"></div><span>스마트 네트워크 소개</span> -->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="panel"></div>
+                            <div class="panel"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Msection3">
+                <div class="flex_box">
+                    <div class="text_wrap">
+                        <div class="line_wrap msection3--line1" data-aos="fade-up" data-aos-duration="6000">
+                            <span class="text">스마트의</span
+                            ><span class="item_img"
+                                ><img src="http://www.smart-pain.com/new/images/main/Msection3_img01.png" /></span
+                            ><span class="text">5가지 차별화 진료</span>
+                        </div>
+                        <div
+                            class="line_wrap msection3--line2"
+                            data-aos="fade-up"
+                            data-aos-delay="300"
+                            data-aos-duration="6000"
+                        >
+                            <span class="text">다름에는 이유가</span
+                            ><span class="item_img"
+                                ><img src="http://www.smart-pain.com/new/images/main/Msection3_img02.png" /></span
+                            ><span class="text">있습니다.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Msection4">
+                <div class="black_bg"></div>
+                <div class="container" style="max-width: 1700px">
+                    <div class="list_wrap list1" data-aos="fade-up">
+                        <div class="img_wrap">
+                            <div class="ani_orange left"></div>
+                            <img src="http://www.smart-pain.com/new/images/main/Msection4_newImg01.jpg" />
+                        </div>
+                        <div class="txt_link">
+                            <div class="txt_wrap" data-aos="fade-up">
+                                <p class="eng">First</p>
+                                <h1>
+                                    꼼꼼한 검사로 개인에 맞는<br />
+                                    <b>체계적인 치료를 설계</b>합니다<span class="orange_color">.</span>
+                                </h1>
+                            </div>
+                            <div class="link_wrap" data-aos="fade-up" data-aos-delay="300">
+                                <a href="/new/sub/01/01.html" class="button--bestia--main">
+                                    <div class="button__bg"></div>
+                                    <span>꼼꼼한 검사 시스템</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_wrap list2" data-aos="fade-up">
+                        <div class="txt_link left">
+                            <div class="txt_wrap" data-aos="fade-up">
+                                <p class="eng">Second</p>
+                                <h1 style="letter-spacing: -0.08em">
+                                    치료는 <b>결과 뿐 아니라 과정도 중요하기에,</b><br />
+                                    한 분 한 분 가족이라는 생각으로<br />
+                                    정성을 다해 진료 합니다<span class="orange_color">.</span>
+                                </h1>
+                            </div>
+                            <div class="link_wrap" data-aos="fade-up" data-aos-delay="300">
+                                <a href="/new/sub/06/01.html#smart" class="button--bestia--main">
+                                    <div class="button__bg"></div>
+                                    <span>환자중심의 치료 원칙</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_wrap">
+                            <div class="ani_orange right"></div>
+                            <img src="http://www.smart-pain.com/new/images/main/Msection4_newImg02.jpg" />
+                        </div>
+                    </div>
+                    <div class="list_wrap list3" data-aos="fade-up">
+                        <div class="img_wrap">
+                            <div class="ani_orange left"></div>
+                            <img src="http://www.smart-pain.com/new/images/main/Msection4_newImg03.jpg" />
+                        </div>
+                        <div class="txt_link">
+                            <div class="txt_wrap" data-aos="fade-up">
+                                <p class="eng">Third</p>
+                                <h1>
+                                    통증은 물론 재발까지 고려한치료!<br />
+                                    체계적 검사에 과학적 치료를 더하여,<br />
+                                    <b>우리 몸의 기초부터 차근차근 치료합니다</b><span class="orange_color">.</span>
+                                </h1>
+                            </div>
+                            <div class="link_wrap" data-aos="fade-up" data-aos-delay="300">
+                                <a href="/new/sub/01/02.html" class="button--bestia--main">
+                                    <div class="button__bg"></div>
+                                    <span>스마트 과학치료</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_wrap list4" data-aos="fade-up">
+                        <div class="txt_link left" style="padding-left: 170px">
+                            <div class="txt_wrap" data-aos="fade-up">
+                                <p class="eng">Fourth</p>
+                                <h1>
+                                    치료 이후 회복이 잘 될 수 있도록<br />
+                                    <b>충분한 영양 보충을 통해</b><br />
+                                    섬세하게 케어 합니다<span class="orange_color">.</span>
+                                </h1>
+                            </div>
+                            <div class="link_wrap" data-aos="fade-up" data-aos-delay="300">
+                                <a href="/new/sub/01/03.html" class="button--bestia--main">
+                                    <div class="button__bg"></div>
+                                    <span>영양 플러스 치료</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="img_wrap">
+                            <div class="ani_orange right"></div>
+                            <img src="http://www.smart-pain.com/new/images/main/Msection4_newImg04.jpg" />
+                        </div>
+                    </div>
+                    <div class="list_wrap list5" data-aos="fade-up">
+                        <div class="img_wrap">
+                            <div class="ani_orange left"></div>
+                            <img src="http://www.smart-pain.com/new/images/main/Msection4_newImg05.jpg" />
+                        </div>
+                        <div class="txt_link">
+                            <div class="txt_wrap" data-aos="fade-up">
+                                <p class="eng">Fifth</p>
+                                <h1 class="ani__txt__fff" data-color="black white">
+                                    비수술적 치료를 우선 적용하여<br />
+                                    <b>치료의 과정에도 무리가 가지 않도록</b><br />
+                                    최선의 노력을 기울입니다<span class="orange_color">.</span>
+                                </h1>
+                            </div>
+                            <div class="link_wrap topbot_link" data-aos="fade-up" data-aos-delay="100">
+                                <a href="/new/sub/04/01.html" class="button--bestia--main ani__txt__fff">
+                                    <div class="button__bg"></div>
+                                    <span>신경치료술</span>
+                                </a>
+                                <a href="/new/sub/04/02.html" class="button--bestia--main ani__txt__fff">
+                                    <div class="button__bg"></div>
+                                    <span>신경성형술</span>
+                                </a>
+                                <a href="/new/sub/04/03.html" class="button--bestia--main ani__txt__fff">
+                                    <div class="button__bg"></div>
+                                    <span>주사치료</span>
+                                </a>
+                            </div>
+                            <div data-aos="fade-up" data-aos-delay="100">
+                                <a href="/new/sub/04/04.html" class="button--bestia--main ani__txt__fff">
+                                    <div class="button__bg"></div>
+                                    <span>체외충격파</span>
+                                </a>
+                                <a href="/new/sub/04/05.html" class="button--bestia--main ani__txt__fff">
+                                    <div class="button__bg"></div>
+                                    <span>신장분사치료</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Msection5">
+                <div class="black_bg"></div>
+                <div class="title_list">
+                    <span class="list_item_top">
+                        <span class="label">special</span>
+                        <span class="space"></span>
+                    </span>
+                    <span class="list_item_bottom">
+                        <span class="label">clinic</span>
+                        <span class="space"></span>
+                    </span>
+                </div>
+            </section>
+            <section class="MsectionNew6">
+                <div class="list_container cursor_wrap" data-aos="fade-up">
+                    <a href="/new/sub/02/03.html">
+                        <div class="fixed_txt">
+                            <h1>목·허리 디스크 특화 클리닉</h1>
+                        </div>
+                        <iframe
+                            src="https://player.vimeo.com/video/879280967?h=a8993ab929&autoplay=1&controls=0&loop=1&autopause=0&muted=1"
+                            allow="autoplay"
+                            frameborder="0"
+                            webkitallowfullscreen
+                            mozallowfullscreen
+                            allowfullscreen
+                        ></iframe>
+                    </a>
+                </div>
+                <div class="list_container cursor_wrap" data-aos="fade-up">
+                    <a href="/new/sub/05/01.html">
+                        <div class="fixed_txt">
+                            <h1>부위별 통증 클리닉</h1>
+                        </div>
+                        <iframe
+                            src="https://player.vimeo.com/video/889781229?h=12372c3015&autoplay=1&controls=0&loop=1&autopause=0&muted=1"
+                            allow="autoplay"
+                            frameborder="0"
+                            webkitallowfullscreen
+                            mozallowfullscreen
+                            allowfullscreen
+                        ></iframe>
+                    </a>
+                </div>
+                <div class="list_container cursor_wrap" data-aos="fade-up">
+                    <a href="/new/sub/01/05.html">
+                        <div class="fixed_txt">
+                            <h1>케이스별 집중 클리닉</h1>
+                        </div>
+                        <iframe
+                            src="https://player.vimeo.com/video/878512943?h=fa272b7a19&autoplay=1&controls=0&loop=1&autopause=0&muted=1"
+                            allow="autoplay"
+                            frameborder="0"
+                            webkitallowfullscreen
+                            mozallowfullscreen
+                            allowfullscreen
+                        ></iframe>
+                    </a>
+                </div>
+            </section>
+            <section class="MsectionNew7text">
+                <p>
+                    <img
+                        src="http://www.smart-pain.com/new/images/main/Msection72_text01.png"
+                        alt="special program for quick recovery"
+                    /><img
+                        src="http://www.smart-pain.com/new/images/main/Msection72_text01.png"
+                        alt="special program for quick recovery"
+                    />
+                </p>
+                <p>
+                    <img
+                        src="http://www.smart-pain.com/new/images/main/Msection72_text02.png"
+                        alt="special program for quick recovery"
+                    /><img
+                        src="http://www.smart-pain.com/new/images/main/Msection72_text02.png"
+                        alt="special program for quick recovery"
+                    />
+                </p>
+            </section>
+            <section class="MsectionNew7">
+                <div class="sub_top" data-aos="fade-up">
+                    <h1>빠른회복을 위한 스마트한 치료<span class="orange_color">.</span></h1>
+                </div>
+                <div class="flex">
+                    <div class="MsectionNew7Lt">
+                        <div class="index-flow__side">
+                            <div class="index-flow__image">
+                                <img
+                                    src="http://www.smart-pain.com/new/images/main/Msection72_Img01.jpg"
+                                    alt=""
+                                    class="image01"
+                                />
+                                <img
+                                    src="http://www.smart-pain.com/new/images/main/Msection72_Img02.jpg"
+                                    alt=""
+                                    class="image02"
+                                />
+                                <img
+                                    src="http://www.smart-pain.com/new/images/main/Msection72_Img03.jpg"
+                                    alt=""
+                                    class="image03"
+                                />
+                                <img
+                                    src="http://www.smart-pain.com/new/images/main/Msection72_Img04.jpg"
+                                    alt=""
+                                    class="image04"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="MsectionNew7Rt">
+                        <div class="index-flow__body">
+                            <div class="index-flow__item item01" data-change-trigger>
+                                <h3 class="titleWrap">
+                                    <div class="number">
+                                        <img src="http://www.smart-pain.com/new/images/main/Msection72_num01.png" />
+                                    </div>
+                                    <div>
+                                        <div class="title">
+                                            <p>도수재활치료</p>
+                                            <a href="/new/sub/05/01.html">
+                                                <div class="circleBtn">
+                                                    <div class="icon">
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(255 255 255 / 50%)"
+                                                                fill="none"
+                                                                class="outline"
+                                                            ></circle>
+                                                        </svg>
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(214 118 8 / 0%)"
+                                                                fill="none"
+                                                                class="outline outline2"
+                                                            ></circle>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <p>단순 통증치료를 넘어 질환의 근본적인 원인을 찾아 치료합니다.</p>
+                                    </div>
+                                </h3>
+                                <div class="infoWrap">
+                                    <h4 class="subtitle">스마트의 도수재활치료 POINT</h4>
+                                    <dl class="">
+                                        <div class="item">
+                                            <dt>POINT 01</dt>
+                                            <dd>개인별 1:1 맞춤 도수재활치료를 진행합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 02</dt>
+                                            <dd>전문의의 정확한 검사를 통한 빠른 진단이 가능합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 03</dt>
+                                            <dd>올바른 자세와 생활습관을 유지할 수 있도록 교육합니다.</dd>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="index-flow__item item02" data-change-trigger>
+                                <h3 class="titleWrap">
+                                    <div class="number">
+                                        <img src="http://www.smart-pain.com/new/images/main/Msection72_num02.png" />
+                                    </div>
+                                    <div>
+                                        <div class="title">
+                                            <p>슬링운동치료</p>
+                                            <a href="/new/sub/05/02.html">
+                                                <div class="circleBtn">
+                                                    <div class="icon">
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(255 255 255 / 50%)"
+                                                                fill="none"
+                                                                class="outline"
+                                                            ></circle>
+                                                        </svg>
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(214 118 8 / 0%)"
+                                                                fill="none"
+                                                                class="outline outline2"
+                                                            ></circle>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <p>신체의 불안정한 균형을 바로잡아 건강하고 바른 체형을 만듭니다.</p>
+                                    </div>
+                                </h3>
+                                <div class="infoWrap">
+                                    <h4 class="subtitle">스마트의 슬링운동치료 POINT</h4>
+                                    <dl class="">
+                                        <div class="item">
+                                            <dt>POINT 01</dt>
+                                            <dd>환자 개개인에 맞는 맞춤 프로그램을 진행합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 02</dt>
+                                            <dd>임상 경험이 풍부한 숙련된 치료사가 함께합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 03</dt>
+                                            <dd>환자에 상태에 따른 치료강도와 테크닉을 적용합니다.</dd>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="index-flow__item item03" data-change-trigger>
+                                <h3 class="titleWrap">
+                                    <div class="number">
+                                        <img src="http://www.smart-pain.com/new/images/main/Msection72_num03.png" />
+                                    </div>
+                                    <div>
+                                        <div class="title">
+                                            <p>스포츠 재활</p>
+                                            <a href="/new/sub/05/03.html">
+                                                <div class="circleBtn">
+                                                    <div class="icon">
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(255 255 255 / 50%)"
+                                                                fill="none"
+                                                                class="outline"
+                                                            ></circle>
+                                                        </svg>
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(214 118 8 / 0%)"
+                                                                fill="none"
+                                                                class="outline outline2"
+                                                            ></circle>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <p>스포츠 재활 치료를 통해 빠른 운동 복귀를 도와드립니다.</p>
+                                    </div>
+                                </h3>
+                                <div class="infoWrap">
+                                    <h4 class="subtitle">스마트의 스포츠 재활 POINT</h4>
+                                    <dl class="">
+                                        <div class="item">
+                                            <dt>POINT 01</dt>
+                                            <dd>정확한 진단을 통해 체계적인 재활치료를 진행합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 02</dt>
+                                            <dd>재발 방지를 위한 바른자세 및 운동법을 교육합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 03</dt>
+                                            <dd>빠른 기능 회복으로 스포츠 활동으로의 빠른 복귀를 돕습니다.</dd>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="index-flow__item item04" data-change-trigger>
+                                <h3 class="titleWrap">
+                                    <div class="number">
+                                        <img src="http://www.smart-pain.com/new/images/main/Msection72_num04.png" />
+                                    </div>
+                                    <div>
+                                        <div class="title">
+                                            <p>수술 후 재활</p>
+                                            <a href="/new/sub/05/04.html">
+                                                <div class="circleBtn">
+                                                    <div class="icon">
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(255 255 255 / 50%)"
+                                                                fill="none"
+                                                                class="outline"
+                                                            ></circle>
+                                                        </svg>
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(214 118 8 / 0%)"
+                                                                fill="none"
+                                                                class="outline outline2"
+                                                            ></circle>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <p>재발 위험을 방지하고 환자의 빠른 일상 복귀를 돕습니다.</p>
+                                    </div>
+                                </h3>
+                                <div class="infoWrap">
+                                    <h4 class="subtitle">스마트의 수술 후 재활 POINT</h4>
+                                    <dl class="">
+                                        <div class="item">
+                                            <dt>POINT 01</dt>
+                                            <dd>충분한 상담을 통해 맞춤형 치료 계획을 수립합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 02</dt>
+                                            <dd>환자의 건강 상태를 정확하게 진단하여 치료를 진행합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 03</dt>
+                                            <dd>빠른일상으로 복귀한 뒤에도 알맞은 운동법과 관리를 교육합니다.</dd>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Msection7--text">
+                <div class="sub_top" data-aos="fade-up">
+                    <h1>meet smart<span class="orange_color">.</span></h1>
+                    <p>꼼꼼함이 남다른 스마트를 미리 만나보세요.</p>
+                </div>
+            </section>
+            <section class="Msection7">
+                <div class="video_wrap">
+                    <div class="Video_expand">
+                        <!--
+			<video autoplay="" loop="" muted="" playsinline="" preload="metadata" src="https://player.vimeo.com/progressive_redirect/download/878587029/container/00fae18c-8ef6-4e5e-b8b1-ea3cbf4fd3c5/84b10cbd/%E1%84%89%E1%85%B3%E1%84%86%E1%85%A1%E1%84%90%E1%85%B3_%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A1%E1%86%BC1%20%281080p%29.mp4?expires=1698806044&amp;loc=external&amp;signature=4ce34bce8a08c8d0a720761efac9faca47768fc7d90644bbdc5f759d5c0cd2fb">
+			<source data-src="https://player.vimeo.com/progressive_redirect/download/878587029/container/00fae18c-8ef6-4e5e-b8b1-ea3cbf4fd3c5/84b10cbd/%E1%84%89%E1%85%B3%E1%84%86%E1%85%A1%E1%84%90%E1%85%B3_%E1%84%8B%E1%85%A7%E1%86%BC%E1%84%89%E1%85%A1%E1%86%BC1%20%281080p%29.mp4?expires=1698806044&amp;loc=external&amp;signature=4ce34bce8a08c8d0a720761efac9faca47768fc7d90644bbdc5f759d5c0cd2fb">
+			</video>
+		-->
+                        <video
+                            autoplay=""
+                            loop=""
+                            muted=""
+                            playsinline=""
+                            preload="metadata"
+                            src="http://www.smart-pain.com/new/images/video/smart_video.mp4"
+                        >
+                            <source data-src="http://www.smart-pain.com/new/images/video/smart_video.mp4" />
+                        </video>
+                    </div>
+                </div>
+            </section>
+            <div id="cursor"></div>
+            <!-- 01.11 메인팝업 가이드 -->
+            <div class="layerPop-overlay"></div>
+            <!--
+<div class="layerPop-wrap">
+	<div class="layerPopTop">
+		<input type="checkbox" id="todayNoPopchk"><label for="todayNoPopchk" class="label">오늘 하루 전체 닫기</label>
+		<button><img src="http://www.smart-pain.com/new/images/common/all_menu_close.png"></button>
+	</div>
+	<div class="layerPopCont">
+		<div class="layerPop">
+      <a href="#"><img src="http://www.smart-pain.comhttp://www.smart-pain.com//new/upload/popup/popup_659fdbec5af7a.jpg"></a>
+      <div class="popup-bt"><a href="#">1일 동안 보지 않음</a> <a href="#">닫기</a></div>
+    </div>
+		<div class="layerPop">
+      <a href="#"><img src="http://www.smart-pain.comhttp://www.smart-pain.com//new/upload/popup/popup_659fdbec5af7a.jpg"></a>
+      <div class="popup-bt"><a href="#">1일 동안 보지 않음</a> <a href="#">닫기</a></div>
+    </div>
+		<div class="layerPop">
+      <a href="#"><img src="http://www.smart-pain.comhttp://www.smart-pain.com//new/upload/popup/popup_659fdbec5af7a.jpg"></a>
+      <div class="popup-bt"><a href="#">1일 동안 보지 않음</a> <a href="#">닫기</a></div>
+    </div>
+		<div class="layerPop">
+      <a href="#"><img src="http://www.smart-pain.comhttp://www.smart-pain.com//new/upload/popup/popup_659fdbec5af7a.jpg"></a>
+      <div class="popup-bt"><a href="#">1일 동안 보지 않음</a> <a href="#">닫기</a></div>
+    </div>
+  </div>
+</div>
+-->
+            <!-- //01.11 메인팝업 가이드 -->
+
+            <script src="http://www.smart-pain.com/new/lib/js/main/main.js?v=20240221092849"></script>
+            <script defer>
+                $(function () {
+                    mainFunc = new $.funcMain()
+                    mainFunc.init()
+                })
+            </script>
+        </div>
+        <!--wrap-->
+        <footer data-aos="fade-up">
+            <div class="footer_top">
+                <div class="container">
+                    <div class="flex_box flex-between">
+                        <div class="left">
+                            <h1 class="tit">smart<br />pain clinic<span class="orange_color">.</span></h1>
+                            <ul class="snsList">
+                                <!-- <li class="blog"><a href="#" target="_blank">blog</a></li> -->
+                                <li class="youtube">
+                                    <a href="https://www.youtube.com/@user-ku9us4bk9m" target="_blank">youtube</a>
+                                </li>
+                                <li class="instar">
+                                    <a href="https://www.instagram.com/smart_pain/" target="_blank">instar</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <h1 class="customService">Customer Service</h1>
+                            <div class="flex_box flex-between">
+                                <div class="service">
+                                    <h2>평촌점</h2>
+                                    <p>031.425.7755</p>
+                                    <ul>
+                                        <li><span>월·목</span>am09:00-pm07:30</li>
+                                        <li><span>화·금</span>am09:00-pm06:30</li>
+                                        <li><span>수요일</span>pm02:00-pm07:00</li>
+                                        <li><span>토요일</span>am09:30-pm01:00</li>
+                                        <li><span>점심시간</span>pm01:00-pm02:00</li>
+                                        <li><span>일요일</span>휴진</li>
+                                    </ul>
+                                </div>
+                                <div class="service">
+                                    <h2>안양점</h2>
+                                    <p>031.466.7555</p>
+                                    <ul>
+                                        <li><span>평일</span>am09:00-pm08:00</li>
+                                        <li><span>토요일</span>am09:00-pm03:00</li>
+                                        <li><span>일요일</span>am09:00-pm01:00</li>
+                                        <li><span>점심시간</span>pm01:00-pm02:00</li>
+
+                                        <li><span>공휴일</span>휴진</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="flex_box flex-between">
+                        <div class="address flex_box">
+                            <dl>
+                                <dt>평촌점</dt>
+                                <dd>
+                                    상호명: 닥터황스마트마취통증의학과의원 | 대표:황인성<br />
+                                    사업자번호:378-32-01280 | 주소: 경기 안양시 동안구 시민대로 311(금강스마트빌딩
+                                    307호)
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>안양점</dt>
+                                <dd>
+                                    상호명: 스마트마취통증의학과의원 안양점 | 대표:김태준<br />
+                                    사업자번호:257-99-01555 | 주소: 경기도 안양시 만안구 안양로 307 금상타워 6층
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="links">
+                            <a href="/new/sub/06/07.html">개인정보처리방침</a>
+                            <a href="/new/sub/06/08.html">서비스이용약관</a>
+                            <a href="/new/sub/06/05.html">비급여비용안내</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="flex_box flex-between align-center">
+                        <p>COPYRIGHT (C) 2023 스마트마취통증의학과의원. ALL RIGHT RESERVED</p>
+                        <p>ALL DESIGNED BY. 오월의나무컴퍼니</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript">
+            $(window).resize(function () {
+                var docWidth = $(window).width()
+
+                if (docWidth < 1000) {
+                    var href = $(location).attr('href')
+                    var pathname = $(location).attr('pathname')
+                    //document.location.href = href.replace(__basePath + pathname , __basePath + "/m" + pathname);
+
+                    document.location.href =
+                        __basePath + '/mo' + href.substring(href.lastIndexOf(pathname) + __basePath.length, href.length)
+                }
+            })
+        </script>
+    </body>
+</html>

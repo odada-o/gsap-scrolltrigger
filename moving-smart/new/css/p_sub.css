@@ -1,0 +1,3098 @@
+.sub-visual {
+    background: #f2e0c8;
+    height: 880px;
+    height: calc(100vh - 100px);
+    margin-top: 100px;
+    padding: 40px;
+}
+.sub-visual .subBg {
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+.subBg .img_wrap {
+    background: no-repeat center center / cover;
+    height: 100%;
+    animation: subbg 2.5s forwards;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.subBg01_01 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg01_01.jpg');
+}
+.subBg01_02 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg01_02.jpg');
+}
+.subBg01_03 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg01_03.jpg');
+}
+.subBg01_04 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg01_04.jpg');
+}
+.subBg01_05 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg01_05.jpg');
+}
+
+.subBg02_01 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg02_01.jpg');
+}
+.subBg02_02 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg02_02.jpg');
+}
+.subBg02_03 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg02_03.jpg');
+}
+.subBg02_04 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg02_04.jpg');
+}
+.subBg02_05 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg02_05.jpg');
+}
+
+.subBg03_01 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg03_01.jpg');
+}
+.subBg03_02 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg03_n02.jpg');
+}
+.subBg03_03 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg03_03.jpg');
+}
+.subBg03_04 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg03_04.jpg');
+}
+.subBg03_05 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg03_05.jpg');
+}
+.subBg03_06 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg03_n06.jpg');
+}
+.subBg03_07 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg03_n07.jpg');
+}
+
+.subBg04_01 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg04_01.jpg');
+}
+.subBg04_02 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg04_02.jpg');
+}
+.subBg04_03 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg04_03.jpg');
+}
+.subBg04_04 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg04_04.jpg');
+}
+.subBg04_05 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg04_05.jpg');
+}
+
+.subBg05_01 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg05_01.jpg');
+}
+.subBg05_02 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg05_02.jpg');
+}
+.subBg05_03 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg05_03.jpg');
+}
+.subBg05_04 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg05_04.jpg');
+}
+
+.subBg06_01 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg06_01.jpg');
+}
+.subBg06_04 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg06_04.jpg');
+}
+.subBg06_05 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg06_05.jpg');
+}
+.subBg06_06 .img_wrap {
+    background-image: url('http://www.smart-pain.com/new/images/sub_bg/subBg06_06.jpg');
+}
+
+.sub-visual .subNavList {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    z-index: 1;
+}
+.sub-visual .subNavList li {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    padding-right: 20px;
+}
+.sub-visual .subNavList li:after {
+    content: '';
+    position: absolute;
+    right: 4px;
+    top: 8px;
+    width: 7px;
+    height: 10px;
+    background: url('http://www.smart-pain.com/new/images/common/nav_arrow.png') no-repeat center;
+}
+.sub-visual .subNavList li.home a {
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 12px;
+    height: 13px;
+    background: url('http://www.smart-pain.com/new/images/common/nav_home.png') no-repeat center;
+}
+.sub-visual .subNavList li:last-child {
+    padding-right: 0;
+    font-weight: 400;
+}
+.sub-visual .subNavList li:last-child:after {
+    display: none;
+}
+
+.subBg .visualTxt {
+    -ms-display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    text-align: center;
+    opacity: 1;
+}
+.subBg .visualTxt .vtxt,
+.subBg .visualTxt span {
+    color: #fff;
+    display: block;
+}
+.subBg .visualTxt p {
+    overflow: hidden;
+}
+.subBg .visualTxt .vtxt span {
+    animation: maintxtani 1s;
+    animation-fill-mode: forwards;
+    transform: translateY(-100%);
+    opacity: 0;
+    display: block;
+}
+
+.subBg .visualTxt .delay01 span {
+    animation-delay: 1s;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1;
+}
+.subBg .visualTxt .delay02 span {
+    animation-delay: 1.3s;
+    padding-top: 30px;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: -0.06em;
+}
+
+.sub-visual .scrolldown {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 2px;
+    background: rgba(255 255 255 / 50%);
+    z-index: 4;
+    height: 95px;
+}
+.sub-visual .scrolldown p {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+    transform: translateX(-50%) rotate(90deg);
+    position: absolute;
+    bottom: 112px;
+    left: 50%;
+    margin-left: 3px;
+}
+.sub-visual .scrolldown span {
+    display: block;
+    position: absolute;
+    width: 2px;
+    background: #fff;
+    height: 100%;
+    animation: scrolldown-bar infinite 2.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+@keyframes scrolldown-bar {
+    0% {
+        top: 0;
+        bottom: 100%;
+        height: 0;
+    }
+    30% {
+        top: 0;
+        bottom: 100%;
+        height: 100%;
+    }
+    31% {
+        top: 0%;
+        bottom: 100%;
+    }
+    60%,
+    100% {
+        top: 100%;
+        bottom: 0;
+        height: 0%;
+    }
+}
+
+.sub_intro {
+    padding: 130px 0;
+}
+.sub_intro.bgcolor1 {
+    background: #fbfaf8;
+}
+.sub_intro.bgcolor2 {
+    background: #f5f2ee;
+}
+.sub_intro.bgcolor3 {
+    background: #f0ebe4;
+}
+.bgcolor--orange {
+    background: #ec7e00 !important;
+}
+
+.sub_intro .flex-box {
+    display: flex;
+}
+.sub_intro .justify-between {
+    justify-content: space-between;
+}
+.sub_intro .justify-center {
+    justify-content: center;
+}
+.sub_intro .align-center {
+    align-items: center;
+}
+.sub_intro .flex-column {
+    flex-direction: column;
+}
+.sub_intro .img_wrap {
+    text-align: center;
+}
+.sub_intro .img_wrap img {
+    width: 100%;
+}
+
+.sub_intro .subTxt1 {
+    font-size: 50px;
+    line-height: 75px;
+    font-weight: 700;
+}
+.sub_intro .subTxt2 {
+    font-size: 37px;
+    line-height: 60px;
+    font-weight: 700;
+}
+.sub_intro .subTxt3 {
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 350;
+}
+.sub_intro .subTxt4 {
+    font-size: 40px;
+    line-height: 75px;
+    font-weight: 700;
+}
+
+.sub_intro .sub_top h2 {
+    font-size: 50px;
+    line-height: 70px;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.sub_intro .sub_top h2.left {
+    text-align: left;
+}
+.sub_intro .sub_top p {
+    font-size: 20px;
+}
+
+.sub_imghoversec .sub_top h2.eng {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 53px;
+    border-bottom: 1px solid #606060;
+}
+.sub_imghoversec .sub_top h2.kor {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 1px solid #606060;
+}
+.sub_imghoversec .txtWrap h1 {
+    font-size: 30px;
+    line-height: 51px;
+    letter-spacing: -0.08em;
+    font-weight: 700;
+}
+.sub_imghoversec .txtWrap h2 {
+    line-height: 32px;
+    padding-top: 10px;
+    letter-spacing: -0.06em;
+}
+.sub_imghoversec .sub_top h2.yoen {
+    border-color: #bfbfbf;
+}
+.sub_imghoversec li {
+    position: relative;
+    padding: 60px 20px;
+    border-bottom: 1px solid #606060;
+    cursor: pointer;
+}
+.sub_imghoversec li .cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+.sub_imghoversec li .imgWrap {
+    width: 540px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    touch-action: none;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 2;
+    transform: translateY(-50%);
+}
+.sub_imghoversec li .imgWrap img {
+    opacity: 0;
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+.sub_imghoversec li:hover .imgWrap img {
+    opacity: 1;
+    transform: scale(1);
+}
+.sub_imghoversec li:hover .txtWrap h1 {
+    color: #ec7e00;
+}
+.sub_imghoversec li.yoen {
+    border-color: #bfbfbf;
+}
+
+.subTab .tab {
+    margin: 0 auto;
+    border-radius: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+.subTab .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 75px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #858484;
+}
+.subTab .tabcontent {
+    display: none;
+    border: 0;
+}
+.subTab .tabcontent--cause {
+    display: none;
+    border: 0;
+}
+.subTab .tab.sub03_021t button.active {
+    background-color: #ec7e00;
+    color: #fff;
+    border-radius: 50px;
+}
+.subTab .tab.sub03_021t {
+    width: 740px;
+    display: block;
+    padding: 7px;
+}
+.subTab .tab.sub03_021t:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.subTab .tab.sub03_021t button {
+    width: 25%;
+}
+
+.subTab .tab.sub01_052t button.active {
+    background-color: #ec7e00;
+    color: #fff;
+    border-radius: 50px;
+}
+.subTab .tab.sub01_052t {
+    width: 910px;
+    display: block;
+    padding: 7px;
+}
+.subTab .tab.sub01_052t:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.subTab .tab.sub01_052t button {
+    height: 60px;
+}
+.subTab .tab.sub01_052t button {
+    width: 20%;
+}
+
+.subTab .tab.causeTab {
+    margin: 40px 0;
+}
+.subTab .tab.causeTab button.tab1.active {
+    background-color: #574941;
+    color: #fff;
+    border-radius: 50px;
+}
+.subTab .tab.causeTab button.tab2.active {
+    background-color: #615954;
+    color: #fff;
+    border-radius: 50px;
+}
+.subTab .tab.causeTab {
+    width: 195px;
+    padding: 5px;
+}
+.subTab .tab.causeTab:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.subTab .tab.causeTab button {
+    width: 50%;
+    height: 50px;
+}
+.sub_intro .tabcontent .subTxt3 {
+    letter-spacing: -0.08em;
+}
+.tabcontent--cause ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.tabcontent--cause li {
+    flex: 0 0 273px;
+    font-size: 18px;
+    font-weight: 350;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    padding-left: 20px;
+    position: relative;
+}
+.tabcontent--cause li:nth-child(1),
+.tabcontent--cause li:nth-child(2),
+.tabcontent--cause li.five---3 {
+    margin-bottom: 20px;
+}
+.tabcontent--cause li:before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 10px;
+    background: url('http://www.smart-pain.com/new/images/sub/03/02_img05_chk.png') no-repeat center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+.tabcontent--cause li.none {
+    padding-left: 0;
+}
+.tabcontent--cause li.none:before {
+    display: none;
+}
+
+.sub01_s11 {
+    position: relative;
+    padding: 0;
+}
+.sub01_s11 .sub_top {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.sub01_s11 ul {
+    display: flex;
+    width: 100%;
+    border-left: 1px solid #e6e3e0;
+}
+.sub01_s11 li {
+    border-right: 1px solid #e6e3e0;
+    padding: 295px 0 140px;
+    flex: 0 0 20%;
+    text-align: center;
+}
+.sub01_s11 li .txt {
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 30px;
+}
+.sub01_s12 {
+    background: #f2e9dc;
+    padding: 100px 0 80px;
+}
+.sub01_s12 .txtWrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.sub01_s12 .txtWrap h1 {
+    font-size: 50px;
+    line-height: 73px;
+    font-weight: 300;
+    letter-spacing: -0.06em;
+    padding-bottom: 40px;
+}
+.sub01_s12 .txtWrap p {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 350;
+    letter-spacing: -0.06em;
+}
+.sub01_s12 .imgWrap {
+    width: 50%;
+    text-align: center;
+}
+
+.sub01_s21 .img_wrap img {
+    max-width: 1040px;
+}
+.sub01_s22 .img_wrap {
+    flex: 0 0 640px;
+    margin-right: 70px;
+}
+.sub01_s22 .txt_wrap {
+    flex: auto;
+}
+.sub01_s22 .txt_wrap .txt {
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 50px;
+    padding-bottom: 30px;
+}
+.sub01_s22 .txt_wrap .hashTag {
+    padding-top: 40px;
+}
+.sub01_s22 .txt_wrap .hashTag span {
+    display: inline-block;
+    color: #e07800;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.08em;
+    padding: 9px 21px 10px;
+    border-radius: 50px;
+    border: 1px solid #e07800;
+}
+.sub01_s22 .txt_wrap .hashTag span + span {
+    margin-left: 8px;
+}
+.sub01_s22 .flex-box + .flex-box {
+    margin-top: 60px;
+    padding-top: 60px;
+    border-top: 1px solid #cfcfcf;
+}
+.sub01_s22 .sub_top h2 {
+    padding-bottom: 80px;
+}
+
+.sub01_s31 {
+    background: url('http://www.smart-pain.com/new/images/sub/01/03_bg_01.jpg') no-repeat center top;
+    background-size: cover;
+}
+.sub01_s31 .sub_top h2 {
+    padding-bottom: 30px;
+}
+.sub01_s31 .sub_top .subTxt3 {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.sub01_s32 {
+    background: #f5f2ee !important;
+}
+.sub01_s32 .txtWrap p {
+    font-weight: 400;
+}
+.sub01_s32 .bottom {
+    margin-top: 50px;
+}
+
+.sub01_s41 {
+    background: url('http://www.smart-pain.com/new/images/sub/01/04_img02_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub01_s41 .img_wrap img {
+    max-width: 738px;
+}
+.sub01_s42 .sub_top p {
+    font-size: 20px;
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 60px;
+}
+.sub01_s42 .sub_top h2.none {
+    border: 0;
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+.sub01_s51 .txtWrap {
+    padding: 0;
+    padding: 30px 20px 40px;
+}
+.sub01_s51 .txtWrap p {
+    font-size: 18px;
+    line-height: 30px;
+}
+.sub01_s51 .txt {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.sub01_s52 .tabcontent {
+    padding-top: 50px;
+}
+.sub01_s52 .section1 .img_wrap {
+    width: 620px;
+    margin-right: 40px;
+}
+.sub01_s52 .section1 .img_wrap img {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sub01_s52 .section1 .txt_wrap {
+    display: flex;
+}
+.sub01_s52 .section1 h1 {
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.sub01_s52 .section1 p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 350;
+}
+.sub01_s52 .sub_top {
+    font-size: 35px;
+    line-height: 1;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+.sub01_s52 .section2 {
+    padding: 90px 0;
+}
+.sub01_s52 .section2 .flex-box {
+    margin: 0 20px;
+}
+.sub01_s52 .section2 .box {
+    width: 33.3%;
+    background: #fcfbfa;
+    height: 150px;
+    display: flex;
+    color: #433d39;
+    text-align: center;
+    line-height: 1;
+    border-radius: 200px;
+    font-size: 26px;
+    font-weight: 500;
+}
+.sub01_s52 .section2 .box + .box {
+    margin-left: 20px;
+}
+
+.sub01_s52 .section2 .orange {
+    background: #fbf5ec;
+    color: #f08000;
+    border: 1px solid #e8b77e;
+}
+.sub01_s52 .section3 .box-section {
+    background: #f9f7f4;
+    border-radius: 10px;
+    padding: 10px 20px 20px;
+    margin-bottom: 80px;
+}
+.sub01_s52 .section3 .num {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'NanumSquare', sans-serif;
+    text-align: center;
+    line-height: 26px;
+    margin-right: 10px;
+}
+.sub01_s52 .section3 .num.orange {
+    background: #ec7e00;
+}
+.sub01_s52 .section3 .num.brown {
+    background: #615954;
+}
+.sub01_s52 .section3 li {
+    color: #5a5552;
+    font-size: 18px;
+    font-weight: 350;
+    padding: 22px 0;
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+}
+.sub01_s52 .section3 li + li {
+    border-top: 1px solid #e6e2dd;
+}
+
+.sub01_s52 .section3 .smalltext {
+    color: #cccccc;
+}
+
+.sub01_s52 .section4 .box {
+    background: #f9f7f4;
+    border-radius: 20px;
+    width: 33.3%;
+    padding: 50px 0 0 40px;
+    height: 450px;
+    position: relative;
+}
+.sub01_s52 .section4 .box + .box {
+    margin-left: 20px;
+}
+.sub01_s52 .section4 .box .orange_color {
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+}
+.sub01_s52 .section4 .box .txt {
+    padding: 10px 0 30px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 40px;
+}
+.sub01_s52 .section4 .box:after {
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+.sub01_s52 .section4 .icon_01:after {
+    width: 100px;
+    height: 89px;
+}
+.sub01_s52 .section4 .icon_01_01:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_01_01.png');
+}
+.sub01_s52 .section4 .icon_01_02:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_01_02.png');
+}
+.sub01_s52 .section4 .icon_01_03:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_01_03.png');
+}
+.sub01_s52 .section4 .icon_02:after {
+    width: 93px;
+    height: 96px;
+}
+.sub01_s52 .section4 .icon_02_01:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_02_01.png');
+}
+.sub01_s52 .section4 .icon_02_02:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_02_02.png');
+}
+.sub01_s52 .section4 .icon_02_03:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_02_03.png');
+}
+.sub01_s52 .section4 .icon_03:after {
+    width: 96px;
+    height: 90px;
+}
+.sub01_s52 .section4 .icon_03_01:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_03_01.png');
+}
+.sub01_s52 .section4 .icon_03_02:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_03_02.png');
+}
+.sub01_s52 .section4 .icon_03_03:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_03_03.png');
+}
+.sub01_s52 .section4 .icon_04:after {
+    width: 107px;
+    height: 91px;
+}
+.sub01_s52 .section4 .icon_04_01:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_04_01.png');
+}
+.sub01_s52 .section4 .icon_04_02:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_04_02.png');
+}
+.sub01_s52 .section4 .icon_04_03:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_04_03.png');
+}
+.sub01_s52 .section4 .icon_05:after {
+    width: 94px;
+    height: 95px;
+}
+.sub01_s52 .section4 .icon_05_01:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_05_01.png');
+}
+.sub01_s52 .section4 .icon_05_02:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_05_02.png');
+}
+.sub01_s52 .section4 .icon_05_03:after {
+    background-image: url('http://www.smart-pain.com/new/images/sub/01/icon_05_03.png');
+}
+
+.sub02_s21 .img_wrap img {
+    max-width: 1171px;
+}
+.sub02_s22 .box {
+    flex: 0 0 calc(50% - 40px);
+    margin: 0 20px;
+}
+.sub02_s22 .roundBox {
+    display: block;
+    background: #fff;
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    line-height: 1;
+}
+.sub02_s22 strong.roundBox {
+    background: #574941;
+    color: #fff;
+    font-size: 30px;
+}
+.sub02_s22 .roundBox.last {
+    margin-bottom: 0;
+}
+.sub02_s22 li .subTxt3 {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    color: #615954;
+}
+.sub02_s22 li .subTxt3:before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 10px;
+    background: url('http://www.smart-pain.com/new/images/sub/03/02_img05_chk.png') no-repeat center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+.sub02_s22 li .subTxt3.brown:before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 10px;
+    background: url('http://www.smart-pain.com/new/images/sub/03/02_img05_chk_brown.png') no-repeat center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.sub02_s31 {
+    background: #f5f2ee url('http://www.smart-pain.com/new/images/sub/02/03_img02_bg.jpg') no-repeat center right;
+    background-size: cover;
+}
+.sub02_s31 .box {
+    width: 400px;
+}
+.sub02_s31 .box + .box {
+    margin-left: 40px;
+}
+.sub02_s31 .txtWrap {
+    background: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+.sub02_s31 .txtWrap span {
+    display: inline-block;
+    background: #ec7e00;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1;
+    padding: 7px 13px;
+    border-radius: 25px;
+}
+.sub02_s31 .txtWrap p {
+    font-size: 23px;
+    line-height: 35px;
+    font-weight: 350;
+    padding-top: 20px;
+}
+
+.sub02_s32 .flex-box {
+    padding-top: 50px;
+}
+.sub02_s32 .box {
+    width: 50%;
+}
+.sub02_s32 .box + .box {
+    margin-left: 30px;
+}
+.sub02_s32 .box strong {
+    display: block;
+    background: #ec7e00;
+    text-align: center;
+    line-height: 1;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 26px 0;
+}
+.sub02_s32 .box--bg {
+    background: #fcfbfa;
+    padding: 20px 30px 10px;
+}
+.sub02_s32 .box--bg img {
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sub02_s32 .box--bg .img {
+    margin-bottom: 20px;
+}
+.sub02_s32 .txt li {
+    position: relative;
+    line-height: 35px;
+    padding: 20px 0;
+}
+.sub02_s32 .txt li span {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+}
+.sub02_s32 .txt li span:before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 10px;
+    background: url('http://www.smart-pain.com/new/images/sub/03/02_img05_chk.png') no-repeat center;
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+.sub02_s32 .txt li:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: url('http://www.smart-pain.com/new/images/sub/02/03_img_line.png') repeat-x center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.sub02_s32 .txt li.last:after {
+    display: none;
+}
+.sub02_s32 .txt li.center {
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.sub02_s34 .Accordion_wrap {
+    padding-bottom: 30px;
+}
+.sub02_s34 .que:first-child {
+    border-top: 1px solid #bfbfbf;
+}
+.sub02_s34 .que {
+    position: relative;
+    padding: 30px 0;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1;
+    border-bottom: 1px solid #bfbfbf;
+}
+.sub02_s34 .anw {
+    display: none;
+    overflow: hidden;
+    background-color: #fdfcfb;
+    padding: 35px 20px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.sub02_s34 .anw strong {
+    color: #ec7e00;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.sub02_s34 .anw span {
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 32px;
+}
+.sub02_s34 .arrow-wrap {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0, -50%);
+}
+.sub02_s34 .que .arrow-top {
+    display: none;
+}
+.sub02_s34 .que .arrow-bottom {
+    display: block;
+}
+.sub02_s34 .que.on .arrow-bottom {
+    display: none;
+}
+.sub02_s34 .que.on .arrow-top {
+    display: block;
+}
+
+.sub02_s41 {
+    background: #ceb79e url('http://www.smart-pain.com/new/images/sub/02/04_img04_bg.jpg') no-repeat center;
+    padding: 0;
+    height: 740px;
+}
+.sub02_s52 {
+    background: #ceb79e url('http://www.smart-pain.com/new/images/sub/02/05_img04_bg.jpg') no-repeat center;
+    padding: 0;
+    height: 740px;
+}
+.sub02_secbgImg .flex-box--col {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 740px;
+}
+.sub02_secbgImg .flex-end {
+    display: flex;
+    flex-direction: column;
+}
+.sub02_secbgImg .sub_top h2 {
+    color: #fff;
+    padding-bottom: 40px;
+    line-height: 1;
+}
+.sub02_secbgImg .box {
+    background: #fff;
+    width: 310px;
+    height: 230px;
+    box-shadow: 0 0 13px rgba(97 89 84 / 22%);
+    position: relative;
+    padding: 50px 0px 0px 40px;
+}
+.sub02_secbgImg .box + .box {
+    margin-left: 20px;
+}
+.sub02_secbgImg .flex-box + .flex-box {
+    margin-top: 20px;
+}
+.sub02_secbgImg .box span {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 2;
+}
+.sub02_secbgImg .box span:before {
+    content: '';
+    display: block;
+    width: 62px;
+    height: 60px;
+    background: url('http://www.smart-pain.com/new/images/sub/02/04_img04_num.png') no-repeat center;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    z-index: -1;
+}
+.sub02_secbgImg .box h1 {
+    font-size: 26px;
+    line-height: 1;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.sub02_secbgImg .box p {
+    color: #4d4d4d;
+    letter-spacing: -0.08em;
+}
+
+.sub_intro.sub02_s42 {
+    background: #fff;
+}
+.sub_intro.sub02_s42 .boxlist {
+    background: #fcfbfa;
+}
+.sub02_s43 .boxlist {
+    box-shadow: 0 0 13px rgba(97 89 84 / 10%);
+}
+
+.sub02_s51 .bottom {
+    padding-top: 60px;
+}
+.sub02_s51 .bottom img {
+    max-width: 1280px;
+}
+
+.sub03_s12 {
+    background: #f5f2ee url('http://www.smart-pain.com/new/images/sub/03/01_img02_bg.jpg') no-repeat center right;
+    background-size: cover;
+}
+.sub03_s22 {
+    background: #f5f2ee url('http://www.smart-pain.com/new/images/sub/03/02_img02_bg.jpg') no-repeat center right;
+    background-size: cover;
+}
+
+.sub03_sec02 {
+    background-color: #f5f2ee;
+}
+.sub03_sec02 .boxlist {
+    flex-direction: column;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    height: 180px;
+    max-width: 400px;
+    width: 33.3%;
+}
+.sub03_sec02 .boxlist + .boxlist {
+    margin-left: 40px;
+}
+.sub03_sec02 .boxlist .img {
+    margin-bottom: 10px;
+}
+.sub03_sec02 .flex-box.bottom {
+    margin-top: 30px;
+}
+.sub03_sec02 .subTxt3 {
+    min-height: 58px;
+}
+
+.sub03_s21 .subTxt2 {
+    flex: 0 0 50%;
+}
+.sub03_s21 .img_wrap {
+    padding: 40px 0 45px;
+}
+.sub03_s21 .subTxt3 {
+    padding-top: 5px;
+}
+.sub03_s23 .img_wrap img {
+    max-width: 1048px;
+}
+.sub03_s24 .flex-box {
+    margin-top: 60px;
+}
+.sub03_s24 .img_wrap {
+    flex: 0 0 620px;
+    margin-right: 50px;
+}
+.sub03_s24 .txt_wrap {
+    flex: auto;
+    padding-top: 40px;
+}
+.sub03_s25 .flex-box.bottom {
+    margin-top: 30px;
+}
+.sub03_s25 .boxlist {
+    background: #fcfbfa;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 33.3%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+}
+.sub03_s25 .boxlist + .boxlist {
+    margin-left: 40px;
+}
+.sub03_s25 .boxlist strong {
+    color: #ec7e00;
+    font-size: 15px;
+    font-weight: 900;
+}
+.sub03_s25 .boxlist h1 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    padding: 20px 0 10px;
+}
+.sub03_s25 .boxlist h2 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 350;
+    letter-spacing: -0.06em;
+}
+.sub03_s25 .boxlist .link_go {
+    color: #fa7800;
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 23px;
+    position: relative;
+}
+.sub03_s25 .boxlist .link_go:after {
+    content: '';
+    display: block;
+    width: 13px;
+    height: 12px;
+    background: url('http://www.smart-pain.com/new/images/main/link_go_hover.png') no-repeat center;
+    position: absolute;
+    top: 9px;
+    right: 0;
+}
+.sub03_s25 .boxlist a {
+    text-align: right;
+    margin-top: 80px;
+}
+
+.brownBgSection {
+    padding-top: 45px;
+    background: #f5f2ee;
+}
+.brownBg--img {
+    background: url('http://www.smart-pain.com/new/images/sub/02/brownBg.jpg') no-repeat center;
+    background-size: cover;
+}
+.brownBgSection .img_wrap img {
+    margin-top: -45px;
+}
+
+#page-1 {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #f2e0c8;
+}
+#pagewrap {
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+}
+
+.sub01_n11 {
+    background: url('http://www.smart-pain.com/new/images/sub/01/01_bg_01.jpg') no-repeat center bottom;
+    background-size: cover;
+}
+.sub01_n11 .subTxt1 {
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 130px;
+    position: relative;
+    line-height: 72px;
+}
+.sub01_n11 .subTxt1:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 40px;
+    background: url('http://www.smart-pain.com/new/images/sub/01/01_bg_03.png') no-repeat center;
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+}
+.sub01_n11 .subTxt1 b {
+    font-weight: 700;
+}
+.sub01_n11 .imgTxt_wrap {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sub01_n11 .imgTxt_wrap img {
+    width: auto;
+    margin: 0 auto;
+}
+.sub01_n11 .txt_wrap {
+    padding-left: 30px;
+}
+.sub01_n11 .txt_wrap .line1 {
+    color: #f8f8f8;
+    font-size: 105px;
+    font-family: 'Montserrat', sans-serif;
+}
+.sub01_n11 .txt_wrap .line2 {
+    font-size: 40px;
+    line-height: 55px;
+    letter-spacing: -0.06em;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+.sub01_n11 .img_wrap {
+    padding: 0 60px;
+}
+
+.sub01_n12 {
+    background: url('http://www.smart-pain.com/new/images/sub/01/01_bg_02.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub01_n12 .sub_top h2 {
+    color: #fff;
+}
+.sub01_n12 ul {
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+}
+.sub01_n12 li {
+    flex: 0 0 20%;
+    text-align: center;
+}
+.sub01_n12 li .txt {
+    font-size: 22px;
+    line-height: 36px;
+    padding-top: 30px;
+    letter-spacing: -0.06em;
+    color: #fff;
+}
+
+.sub01_n41 {
+    background: url('http://www.smart-pain.com/new/images/sub/01/04_bg_01.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub01_n41 .sub_top h2 {
+    font-weight: 300;
+    color: #fff;
+}
+.sub01_n41 .sub_top h2 b {
+    font-weight: 700;
+}
+.sub01_n41 .img_wrap {
+    max-width: 1036px;
+    margin: 0 auto;
+}
+
+.sub02_ss11 {
+    padding: 240px 0 10px;
+    position: relative;
+}
+.sub02_ss11:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 700px;
+    background: #f5f2ee;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.sub02_ss11:after {
+    content: '';
+    display: block;
+    width: 100%;
+    max-width: 1920px;
+    height: 149px;
+    background: url('http://www.smart-pain.com/new/images/sub/02/01_txt_img.png') no-repeat center;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    background-size: contain;
+}
+.sub02_ss11 .video_wrap {
+    position: relative;
+    z-index: 3;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.sub02_ss11 .video_wrap iframe {
+    width: 100%;
+    height: 725px;
+}
+
+.sub02_ss12 .img_wrap {
+    flex: 0 0 50%;
+    padding-right: 20px;
+}
+.sub02_ss12 .txt_wrap {
+    margin-left: 40px;
+}
+.sub02_ss12 .txt_wrap .eng {
+    font-weight: 900;
+    color: #f6f6f6;
+    font-size: 97px;
+    letter-spacing: 0;
+    padding-bottom: 30px;
+}
+
+.sub02_ss13 {
+    background: #f5f2ee;
+    padding: 130px 0 150px;
+}
+.sub02_ss13 .sub_top h2 {
+    padding-bottom: 80px;
+    font-weight: 300;
+}
+.sub02_ss13 .list_wrap {
+    display: flex;
+    align-items: center;
+}
+.sub02_ss13 .list_wrap + .list_wrap {
+    margin-top: 50px;
+}
+.sub02_ss13 .img_wrap {
+    flex: 0 0 50%;
+    position: relative;
+}
+.sub02_ss13 .img_wrap img {
+    opacity: 0;
+    z-index: 1;
+    position: relative;
+}
+.sub02_ss13 .txt_link {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    margin-left: 50px;
+}
+.sub02_ss13 .txt_link h1 {
+    font-size: 28px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    letter-spacing: -0.06em;
+}
+.sub02_ss13 .txt_link p {
+    letter-spacing: -0.06em;
+}
+.sub02_ss13 .num_wrap {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.sub02_ss13 .num_wrap .current,
+.sub02_ss13 .num_wrap .total {
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.06em;
+}
+.sub02_ss13 .num_wrap .current {
+    color: #ec7e00;
+    font-weight: 700;
+}
+.sub02_ss13 .num_wrap .total {
+    color: #b6b6b6;
+    font-weight: 400;
+}
+.sub02_ss13 .num_wrap .line {
+    width: 100px;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+.sub02_ss13 .num_wrap .line:before {
+    content: '';
+    display: block;
+    width: 86px;
+    height: 1px;
+    background: #d4d4d4;
+    position: absolute;
+    top: 50%;
+    left: 7px;
+}
+.sub02_ss13 .img_wrap .ani_orange {
+    width: 100%;
+    height: 100%;
+    background: #e18317;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.sub02_ss13 .img_wrap .ani_orange.left {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform-origin: 100% 50%;
+    transform: scale(0, 1);
+}
+.sub02_ss13 .list_wrap.aos-animate .ani_orange.left {
+    animation: orangeAni--left 1.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s forwards;
+}
+.sub02_ss13 .img_wrap .ani_orange.right {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform-origin: 0% 100%;
+    transform: scale(0, 1);
+}
+.sub02_ss13 .list_wrap.aos-animate .ani_orange.right {
+    animation: orangeAni--right 1.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s forwards;
+}
+.sub02_ss13 .list_wrap.aos-animate .img_wrap img {
+    animation: orangeImgAni 1.2s 0.7s forwards;
+}
+
+.sub02_n11 .subTxt1 {
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 130px;
+    position: relative;
+    line-height: 72px;
+}
+.sub02_n11 .subTxt1:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 40px;
+    background: url('http://www.smart-pain.com/new/images/sub/01/01_bg_03.png') no-repeat center;
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+}
+.sub02_n11 .subTxt1 b {
+    font-weight: 700;
+}
+.sub02_n11 .imgTxt_wrap {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sub02_n11 .imgTxt_wrap img {
+    width: auto;
+    margin: 0 auto;
+}
+.sub02_n11 .subTxt2 {
+    flex: 0 0 50%;
+}
+.sub02_n11 .img_wrap {
+    padding: 0px 0 45px;
+}
+.sub02_n11 .subTxt3 {
+    padding-top: 5px;
+}
+
+.sub02_nn11 {
+    background: url('http://www.smart-pain.com/new/images/sub/02/02_img_nn1_bg.jpg') no-repeat center;
+    background-size: cover;
+    padding-bottom: 0;
+}
+.sub02_nn11 .subTxt1 {
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 90px;
+    position: relative;
+    line-height: 72px;
+    letter-spacing: -0.06em;
+}
+.sub02_nn11 .subTxt1 span {
+    display: block;
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 35px;
+    padding-top: 20px;
+}
+.sub02_nn11 .subTxt1:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 40px;
+    background: url('http://www.smart-pain.com/new/images/sub/01/01_bg_03.png') no-repeat center;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+}
+.sub02_nn11 .imgTxt_wrap {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sub02_nn11 .imgTxt_wrap img {
+    width: auto;
+    margin: 0 auto;
+}
+.sub02_nn11 .flex-box {
+    padding-top: 40px;
+    align-items: flex-end;
+}
+.sub02_nn11 .list_txt {
+    box-shadow: 0 0 13px rgba(161 144 130 / 8%);
+}
+.sub02_nn11 .list_txt + .list_txt {
+    margin-top: 20px;
+}
+.sub02_nn11 .txt_wrap {
+    padding-bottom: 80px;
+    padding-left: 10px;
+}
+
+.sub03_n11 {
+    background: url('http://www.smart-pain.com/new/images/sub/03/01_bg_01.jpg') no-repeat center right;
+    background-size: cover;
+}
+.sub03_n11 .sub_top h2 {
+    color: #fff;
+}
+
+.sub04_s11 {
+    padding: 130px 0 90px;
+}
+.sub04_s11 .img_wrap {
+    flex: 0 0 50%;
+}
+.sub04_s11 .right_wrap {
+    padding-left: 70px;
+}
+.sub04_s11 .right_wrap .subTxt4 {
+    line-height: 55px;
+    padding: 10px 0 30px;
+    font-weight: 300;
+}
+.sub04_s11 .animated-title {
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #f7f6f5;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 100%;
+    margin: 20px 0;
+    height: 115px;
+    line-height: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.sub04_s11 .animated-title .track {
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 60s linear infinite;
+}
+
+.sub04_s12 {
+    background: #f5f2ee;
+    position: relative;
+    padding-bottom: 330px;
+}
+.sub04_s12:after {
+    content: '';
+    display: block;
+    width: 986px;
+    height: 188px;
+    background: url('http://www.smart-pain.com/new/images/sub/04/01_txt02_bottom_n1.png') no-repeat center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.sub04_s12 .contSideSticky .title {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.sub04_s12 .contSideSticky p.subTxt3 {
+    padding-bottom: 50px;
+}
+
+.sub04_s12 .contFlexBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-column-gap: 71px;
+    -moz-column-gap: 71px;
+    column-gap: 71px;
+    margin-top: 94px;
+}
+.sub04_s12 .contSideWrap {
+    position: relative;
+    width: 390px;
+}
+
+.sub04_s12 .contSideSticky {
+    position: sticky;
+    top: 110px;
+}
+.sub04_s12 .contSideSticky ul {
+    border-top: 1px solid #959492;
+}
+.sub04_s12 .contSideSticky ul li {
+    counter-increment: tabNumber;
+    border-bottom: 1px solid #959492;
+}
+.sub04_s12 .contSideSticky ul li .nav-link {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 20px 0;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.sub04_s12 .contSideSticky ul li .nav-link::before {
+    content: counter(tabNumber, decimal-leading-zero);
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 16px;
+    padding-right: 20px;
+    margin-top: 2px;
+}
+
+.sub04_s12 .contSideSticky ul li .nav-link::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background: url('http://www.smart-pain.com/new/images/sub/04/01_arrow1.png') no-repeat center;
+    background-size: cover;
+    transform: translateY(-50%);
+    /*
+	transform:translateY(-50%) rotate(320deg);
+	*/
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.sub04_s12 .contSideSticky ul li .nav-link.current::after {
+    width: 21px;
+    height: 12px;
+    background: url('http://www.smart-pain.com/new/images/sub/04/01_arrow_active.png') no-repeat center;
+    background-size: cover;
+    /*
+	transform:translateY(-50%) rotate(360deg);
+	*/
+}
+.sub04_s12 .conMainWrap {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+.sub04_s12 .conMainWrap .list li {
+    height: 500px;
+}
+.sub04_s12 .conMainWrap .list li + li {
+    margin-top: 110px;
+}
+.sub04_s12 .conMainWrap .list li img {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    padding-top: 110px;
+}
+
+.sub04_s12 .conMainWrap .list dt {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.sub04_s13 h2.eng {
+    color: #f5f2ee;
+    font-weight: 700;
+    font-size: 93px;
+}
+.sub04_s13 .sub_top {
+    position: relative;
+    padding-bottom: 80px;
+}
+.sub04_s13 h2.kor {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sub04_s13 .w100 {
+    width: 100%;
+}
+.sub04_s13 .boxlist {
+    flex-direction: column;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    height: 230px;
+    width: 50%;
+    background-color: #faf8f6;
+    border: 1px solid #ebebeb;
+}
+.sub04_s13 .boxlist + .boxlist {
+    margin-left: 40px;
+}
+.sub04_s13 .boxlist .img {
+    margin-bottom: 15px;
+}
+.sub04_s13 .flex-box.bottom {
+    margin-top: 30px;
+}
+.sub04_s13 .subTxt3 {
+    font-size: 23px;
+    line-height: 38px;
+    color: #4b4947;
+}
+
+.sub04_s14 {
+    background: #f5f2ee;
+    overflow: hidden;
+}
+.sub04_s14 .title_wrap {
+    flex: 0 0 auto;
+    width: 35%;
+    margin-right: 5%;
+}
+.sub04_s14 .slide_wrap {
+    flex: auto;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+@media (max-width: 2290px) {
+    .sub04_s14 .slide_wrap {
+        flex: auto;
+        width: 100%;
+        padding-bottom: 80px;
+    }
+    .sub04_s14 .slide_wrap .swiper {
+        padding-right: 400px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .sub04_s14 .slide_wrap {
+        flex: auto;
+        width: 60%;
+    }
+    .sub04_s14 .slide_wrap .swiper {
+        padding-right: 0px;
+    }
+}
+.sub04_s14 .title_wrap .white_big {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    margin-top: -30px;
+    color: #ffffff;
+    font-size: 171px;
+    font-weight: 700;
+    margin-left: -320px;
+}
+.sub04_s14 .title_wrap h1 {
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.sub04_s14 .title_wrap p {
+    font-size: 20px;
+    line-height: 34px;
+    padding-bottom: 90px;
+}
+@media (max-width: 1919px) {
+    .sub04_s14 .title_wrap {
+        position: relative;
+    }
+    .sub04_s14 .title_wrap h1 {
+        padding: 7vw 0 1.5vw;
+    }
+    .sub04_s14 .title_wrap p {
+        padding-bottom: 5vw;
+    }
+    .sub04_s14 .title_wrap .white_big {
+        position: absolute;
+        right: 17%;
+        top: -40px;
+        margin-left: 0;
+        font-size: 9vw;
+        margin-top: -2vw;
+    }
+}
+
+.sub04_s14 .title_wrap .btn_wrap {
+    position: relative;
+    margin-top: 20px;
+}
+.sub04_s14 .title_wrap .swiper-button-prev:after,
+.sub04_s14 .swiper-button-next:after {
+    display: none;
+}
+.sub04_s14 .title_wrap .swiper-button-prev,
+.sub04_s14 .swiper-button-next {
+    width: 50px;
+    height: 50px;
+}
+
+.sub04_s14 .title_wrap .swiper-button-prev {
+    left: 0;
+    top: 0;
+    background: url('http://www.smart-pain.com/new/images/sub/04/01_arrow_prev.png') no-repeat center;
+    background-size: cover;
+}
+.sub04_s14 .title_wrap .swiper-button-next {
+    left: 55px;
+    right: auto;
+    top: 0;
+    background: url('http://www.smart-pain.com/new/images/sub/04/01_arrow_next.png') no-repeat center;
+    background-size: cover;
+}
+.sub04_s14 .swiper-button-prev.swiper-button-disabled {
+    background: url('http://www.smart-pain.com/new/images/sub/04/disable_prev.png') no-repeat center;
+    opacity: 1;
+}
+.sub04_s14 .swiper-button-next.swiper-button-disabled {
+    background: url('http://www.smart-pain.com/new/images/sub/04/disable_next.png') no-repeat center;
+    opacity: 1;
+}
+
+.sub04_s14 .slide_wrap .swiper {
+    position: relative;
+}
+.sub04_s14 .slide_wrap .swiper-slide {
+    width: 400px;
+}
+
+.sub04_s41 {
+    background: url('http://www.smart-pain.com/new/images/sub/04/04_img02_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub04_s41 .img_wrap {
+    max-width: 1135px;
+    margin: 10px auto 0;
+}
+.sub04_s43 {
+    background: url('http://www.smart-pain.com/new/images/sub/04/04_img04_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub04_s43 .txtWrap p {
+    font-size: 20px;
+    line-height: 31px;
+}
+.sub04_s43 .txtWrap {
+    padding: 40px 0;
+}
+.sub04_s43 .txtWrap span {
+    font-family: 'NanumSquare', sans-serif;
+}
+
+.sub04_s44 {
+    background: url('http://www.smart-pain.com/new/images/sub/04/04_img05_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub04_s44 .sub_top h2 {
+    color: #fff;
+}
+.sub04_s44 .box {
+    flex: 0 0 25%;
+    text-align: center;
+    position: relative;
+    padding: 50px 0 70px;
+}
+.sub04_s44 .box:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: rgba(255 255 255 / 13%);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sub04_s44 .box:last-child:after {
+    display: none;
+}
+.sub04_s44 .box p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.06em;
+    margin-top: 30px;
+}
+.sub04_s44 .box p.top {
+    height: 60px;
+    line-height: 60px;
+}
+
+.sub05_s11 {
+    background: #f5f2ee;
+    margin-top: 10px;
+    padding: 0;
+}
+.sub05_s11 .img_wrap {
+    margin-top: -40px;
+    flex: 0 0 50%;
+    padding-left: 30px;
+}
+.sub05_s11 .txt_wrap {
+    padding-left: 50px;
+}
+.sub05_s11 .txt_wrap h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1;
+    padding-bottom: 50px;
+}
+.sub05_s12 {
+    background: url('http://www.smart-pain.com/new/images/sub/05/01_img03_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub05_s12 .txtWrap span {
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: 700;
+}
+.sub05_s12 .txtWrap p {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 40px;
+}
+.sub05_s13 {
+    background: url('http://www.smart-pain.com/new/images/sub/05/01_img04_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub05_s13 .sub_top h2 {
+    color: #fff;
+}
+.sub05_s13 ul {
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.sub05_s13 ul + ul {
+    padding-top: 80px;
+}
+.sub05_s13 li {
+    text-align: center;
+    width: 33.3%;
+}
+.sub05_s13 li .txt {
+    font-size: 22px;
+    line-height: 36px;
+    padding-top: 30px;
+    letter-spacing: -0.06em;
+    color: #fff;
+}
+
+.sub05_s21 {
+    padding: 0;
+}
+.sub05_s21 .flex-box {
+    position: relative;
+    padding: 200px 0 260px;
+}
+.sub05_s21 .txt_wrap {
+    flex: 0 0 50%;
+}
+.sub05_s21 .txt_wrap h1 {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -0.06em;
+}
+.sub05_s21 .txt_wrap p {
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: -0.06em;
+}
+.sub05_s21 .eng {
+    color: #f7f6f5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.06em;
+    font-size: 126px;
+    position: absolute;
+    bottom: 90px;
+    left: -24%;
+    white-space: nowrap;
+    z-index: -1;
+}
+.sub05_s21 .img_txt {
+    padding: 50px 0;
+}
+.sub05_s21 .img_wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 960px;
+}
+.sub05_s22 {
+    background: url('http://www.smart-pain.com/new/images/sub/05/02_img04_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub05_s22 li {
+    width: 25%;
+    position: relative;
+}
+.sub05_s22 li:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 50px;
+    background: #413d3a;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sub05_s22 li:last-child:after {
+    display: none;
+}
+
+.sub05_s31 {
+    background: url('http://www.smart-pain.com/new/images/sub/05/03_img02_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub05_s31 li {
+    width: 20%;
+    position: relative;
+}
+.sub05_s31 li:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 50px;
+    background: #413d3a;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sub05_s31 li:last-child:after {
+    display: none;
+}
+
+.sub05_s32 {
+    background: #fff;
+}
+.sub05_s32 .title_wrap h1 {
+    padding: 0;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 65px;
+    padding: 90px 0 110px;
+}
+.sub05_s32 .title_wrap h1 b {
+    font-weight: 700;
+}
+.sub05_s32 .slide_wrap .swiper-slide {
+    width: 400px;
+}
+
+.sub05_s41 {
+    background: url('http://www.smart-pain.com/new/images/sub/05/04_img_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub05_s41 .txtWrap p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.sub05_s42 {
+    background: #fff;
+}
+.sub05_s42 .boxlist {
+    background: #f8f5f1;
+}
+.sub05_s43 {
+    background: url('http://www.smart-pain.com/new/images/sub/05/04_img03_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub05_s43 li {
+    width: 20%;
+    position: relative;
+}
+.sub05_s43 li:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 50px;
+    background: #413d3a;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sub05_s43 li:last-child:after {
+    display: none;
+}
+
+.sub-visual.sub0601 {
+    padding: 0;
+}
+.sub-visual.sub0601 .subBg {
+    border-radius: 0px;
+}
+.sub-visual.sub0601 .visualTxt h2 {
+    font-size: 20px;
+    letter-spacing: 1em;
+    font-weight: 350;
+    color: #f1f1f1;
+    line-height: 1;
+    padding-bottom: 30px;
+}
+.sub-visual.sub0601 .visualTxt h1 {
+    font-size: 90px;
+    letter-spacing: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1;
+}
+
+.sub06_s11 {
+    background: url('http://www.smart-pain.com/new/images/sub/06/01_img01_bg.jpg') no-repeat center top;
+    background-size: cover;
+    padding: 345px 0 270px;
+}
+.sub06_s11 .plus_wrap {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.sub06_s11 .plus_wrap:after {
+    content: '';
+    display: block;
+    width: 47px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sub06_s11 .plus_wrap h1 {
+    font-size: 40px;
+    line-height: 63px;
+    font-weight: 300;
+    letter-spacing: -0.06em;
+    text-align: center;
+    color: #fff;
+}
+.sub06_s11 .plus_wrap h1 b {
+    color: #d8b48c;
+    font-weight: 700;
+}
+.sub06_s11 .plus_wrap .btn_plus {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background: url('http://www.smart-pain.com/new/images/sub/06/01_plus_img.png') no-repeat center;
+    background-size: cover;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    text-indent: -999px;
+    overflow: hidden;
+    cursor: pointer;
+    transform: translateX(-400px);
+}
+.sub06_s11 .plus_wrap .plus_txt {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-425px, -107%);
+    display: none;
+}
+.sub06_s11 .txt_wrap h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.brownBg {
+    background: #171310 url('http://www.smart-pain.com/new/images/sub/06/01_pattern2.jpg') repeat-y center;
+    background-size: cover;
+}
+.sub06_s12 .content--feature {
+    padding: 3rem;
+    min-height: 90vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+    min-height: 0;
+}
+.sub06_s12 .content__breakout {
+    margin: 0 -3rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-style: italic;
+    color: #332c28;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.sub06_s12 .content__breakout--big {
+    font-size: 13vw;
+    font-weight: 200;
+}
+.sub06_s12 .content__breakout--medium {
+    font-size: 5vw;
+}
+
+.sub06_s12 .tiles {
+    --tiles-height: 75vw;
+    height: var(--tiles-height);
+    position: relative;
+    overflow: hidden;
+}
+
+.sub06_s12 .tiles__wrap {
+    width: 150%;
+    --tileswrap-height: var(--tiles-height);
+    height: var(--tileswrap-height);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.sub06_s12 .tiles__line {
+    display: flex;
+}
+
+.sub06_s12 .tiles__line-img {
+    --tile-margin: 2vw;
+    flex: none;
+    width: calc(25% - var(--tile-margin) * 2);
+    height: calc(var(--tileswrap-height) / 3 - (3 * var(--tile-margin) / 2));
+    margin: var(--tile-margin);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.sub06_s13 {
+    padding-bottom: 300px;
+}
+.sub06_s13 .list_wrap {
+    display: flex;
+}
+.sub06_s13 .list_wrap + .list_wrap {
+    margin-top: 110px;
+}
+.sub06_s13 .img_wrap {
+    flex: 0 0 50%;
+    position: relative;
+}
+.sub06_s13 .img_wrap img {
+    opacity: 0;
+    z-index: 1;
+    position: relative;
+}
+.sub06_s13 .txt_link {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+}
+.sub06_s13 .txt_link.right {
+    margin-left: 50px;
+}
+.sub06_s13 .txt_link.left {
+    margin-left: 40px;
+}
+.sub06_s13 .txt_link h1 {
+    color: #f8f8f8;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.sub06_s13 .txt_link p {
+    color: #f8f8f8;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    letter-spacing: -0.06em;
+}
+.sub06_s13 .num_wrap {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.sub06_s13 .num_wrap .current,
+.sub06_s13 .num_wrap .total {
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 16px;
+    letter-spacing: -0.06em;
+}
+.sub06_s13 .num_wrap .current {
+    color: #f8f8f8;
+    font-weight: 700;
+}
+.sub06_s13 .num_wrap .total {
+    color: #b6b6b6;
+    font-weight: 400;
+}
+.sub06_s13 .num_wrap .line {
+    width: 100px;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+.sub06_s13 .num_wrap .line:before {
+    content: '';
+    display: block;
+    width: 86px;
+    height: 1px;
+    background: #d4d4d4;
+    position: absolute;
+    top: 50%;
+    left: 7px;
+}
+.sub06_s13 .img_wrap .ani_orange {
+    width: 100%;
+    height: 100%;
+    background: #e18317;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.sub06_s13 .img_wrap .ani_orange.left {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform-origin: 100% 50%;
+    transform: scale(0, 1);
+}
+.sub06_s13 .list_wrap.aos-animate .ani_orange.left {
+    animation: orangeAni--left 1.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s forwards;
+}
+.sub06_s13 .img_wrap .ani_orange.right {
+    translate: none;
+    rotate: none;
+    scale: none;
+    transform-origin: 0% 100%;
+    transform: scale(0, 1);
+}
+.sub06_s13 .list_wrap.aos-animate .ani_orange.right {
+    animation: orangeAni--right 1.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s forwards;
+}
+.sub06_s13 .list_wrap.aos-animate .img_wrap img {
+    animation: orangeImgAni 1.2s 0.7s forwards;
+}
+.sub06_s13 .list1 {
+    justify-content: center;
+}
+.sub06_s13 .list2,
+.sub06_s13 .list5 {
+    justify-content: end;
+    padding-bottom: 30px;
+}
+.sub06_s13 .list3 {
+    padding-top: 40px;
+}
+.sub06_s13 .list4 {
+    justify-content: end;
+    padding-bottom: 50px;
+}
+.sub06_s13 .sub_top h2 {
+    color: #fff;
+    font-size: 60px;
+    padding-bottom: 140px;
+}
+
+.sub06_s14 {
+    padding: 0;
+    display: flex;
+}
+.sub06_s14 .contect {
+    flex: 0 0 50%;
+    height: 500px;
+}
+.sub06_s14 .contect.left {
+    background: url('http://www.smart-pain.com/new/images/sub/06/01_img04_left.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub06_s14 .contect.right {
+    background: url('http://www.smart-pain.com/new/images/sub/06/01_img04_right.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub06_s14 .link_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.sub06_s14 .link_wrap h1 {
+    font-weight: 300;
+    font-size: 50px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+@media (max-width: 1600px) {
+    .sub06_s14 .link_wrap h1 {
+        font-size: 2.7vw;
+    }
+}
+.sub06_s14 .link_wrap h1 b {
+    font-weight: 700;
+}
+
+.button--bestia {
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    width: 185px;
+    height: 55px;
+    font-weight: 300;
+}
+.button--bestia:hover {
+    color: #000;
+    font-weight: 500;
+}
+.button--bestia::before,
+.button--bestia::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.button--bestia .button__bg {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #b6b6b6;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1);
+}
+
+.button--bestia:hover .button__bg {
+    transform: scale3d(1.2, 1.2, 1);
+}
+.button--bestia .button__bg::before,
+.button--bestia .button__bg::after {
+    content: '';
+    position: absolute;
+    background: #fff;
+}
+
+.button--bestia .button__bg::before {
+    width: 110%;
+    height: 0;
+    padding-bottom: 110%;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate3d(-50%, -50%, 0) scale3d(0, 0, 1);
+}
+
+.button--bestia:hover .button__bg::before {
+    transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1);
+    transform: translate3d(-50%, -50%, 0) scale3d(1, 1, 1);
+}
+
+.button--bestia .button__bg::after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.button--bestia:hover .button__bg::after {
+    opacity: 1;
+    transition-duration: 0.01s;
+    transition-delay: 0.3s;
+}
+
+.button--bestia span {
+    display: block;
+    position: relative;
+    padding: 0;
+    text-align: center;
+    line-height: 52px;
+}
+
+.sub06_s31 {
+    margin-top: 100px;
+    background: #f5f2ef;
+    background-size: cover;
+    padding: 60px 0 0;
+    position: relative;
+}
+.sub06_s31:before {
+    content: '';
+    display: block;
+    width: 100.1%;
+    height: 112px;
+    background: url('http://www.smart-pain.com/new/images/sub/06/02_img01_before.png') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    z-index: 2;
+}
+.sub06_s31:after {
+    content: '';
+    display: block;
+    width: 630px;
+    height: 630px;
+    background: url('http://www.smart-pain.com/new/images/sub/06/02_img01_after.png') no-repeat center;
+    position: absolute;
+    bottom: 0px;
+    right: -30px;
+    z-index: 1;
+}
+.sub06_s31 .doctor {
+    flex: 0 0 50%;
+    z-index: 1;
+    position: relative;
+}
+.sub06_s31 .txt_wrap {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sub06_s31 .txt_img.txxt1 {
+    max-width: 428px;
+}
+.sub06_s31 .txt_img.txxt2 {
+    max-width: 491px;
+}
+.sub06_s31 .txt {
+    padding-bottom: 60px;
+}
+.sub06_s31 .txt h1 {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 40px 0 20px;
+}
+.sub06_s31 .txt h1 span {
+    font-size: 26px;
+    font-weight: 300;
+}
+.sub06_s32 {
+    position: relative;
+    padding-bottom: 50px;
+}
+.sub06_s32 .sub_top {
+    padding-top: 130px;
+}
+.sub06_s32 .sub_top h2 {
+    color: #fff;
+    font-weight: 300;
+    padding-bottom: 0;
+}
+.sub06_s32 .img_wrap {
+    max-width: 948px;
+    margin: 0 auto;
+    padding: 20px 0 10px;
+}
+.tour-slider {
+    position: relative;
+    margin: 140px 0 0px;
+    padding-bottom: 50px;
+}
+.tour-slider .swiper-slide {
+    width: 85%;
+    max-width: 1280px;
+    position: relative;
+}
+.sub06_s33 .sub_top {
+    padding-top: 50px;
+}
+.sub06_s33 .sub_top h2 {
+    color: #fff;
+    font-weight: 300;
+}
+.sub06_s33 .map_section {
+    width: 100%;
+    height: 540px;
+}
+
+.sub06_s33 .map_section .root_daum_roughmap .wrap_controllers {
+    display: none;
+}
+.sub06_s33 .map_section .root_daum_roughmap_landing {
+    width: 100%;
+}
+.sub06_s33 .map_section .root_daum_roughmap .wrap_map {
+    height: 540px;
+}
+.sub06_s33 .info_txt {
+    padding: 80px 0 100px;
+}
+
+.sub06_s41 {
+    background: #252322;
+}
+.sub06_s41 .sub_top {
+    padding-bottom: 105px;
+}
+.sub06_s41 .sub_top h2 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    line-height: 1;
+    padding-bottom: 30px;
+}
+.sub06_s41 .sub_top p {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+.sub06_s41 .list_wrap {
+    display: flex;
+    height: 650px;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub06_s41 .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sub06_s41 .center {
+    flex: 0 0 450px;
+    height: 450px;
+}
+.sub06_s41 .center iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.sub06_51 .table--wrap table {
+    width: 100%;
+}
+.sub06_51 .table--wrap th {
+    font-size: 20px;
+    background: #34261d;
+    color: #fff;
+    height: 60px;
+}
+.sub06_51 .table--wrap td {
+    text-align: center;
+    color: #464646;
+    font-size: 18px;
+    height: 60px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.sub06_51 .table--wrap td span {
+    color: #888888;
+}
+.sub06_51 .table--wrap th + th {
+    border-left: 1px solid #ececec;
+}
+.sub06_51 .table--wrap td + td {
+    border-left: 1px solid #ececec;
+}
+
+.sub_js_slide {
+    background: url('http://www.smart-pain.com/new/images/sub/01/01_bg_01.jpg') no-repeat center bottom;
+    background-size: cover;
+}
+.sub_js_slide .imgTxt_wrap {
+    padding-bottom: 30px;
+}
+.sub_js_slide .imgTxt_wrap img {
+    width: auto;
+    margin: 0 auto;
+}
+.sub_js_slide .sub_top {
+    text-align: center;
+    padding-bottom: 70px;
+}
+.sub_js_slide .slide_wrap {
+    position: relative;
+}
+.sub_js_slide .swiper-slide img {
+    width: 100%;
+}
+.sub_js_slide .flex-box .img + .img {
+    margin-left: 40px;
+}
+.sub_js_slide .flex-box.top {
+    margin-bottom: 50px;
+}
+
+.sub06_n42 {
+    position: relative;
+    height: 100vh;
+    background: url('http://www.smart-pain.com/new/images/sub/06/04_img02_bg_bk.jpg') no-repeat top center;
+    background-size: cover;
+    padding: 0;
+}
+.sub06_n42 .bg_wrap {
+    position: relative;
+}
+.sub06_n42 .contSideSticky .title {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    color: #fff;
+}
+.sub06_n42 .contFlexBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-column-gap: 71px;
+    -moz-column-gap: 71px;
+    column-gap: 71px;
+    padding-top: 140px;
+}
+
+.sub06_n42 .contFlexBox .link {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 350;
+    color: #fff;
+    width: 260px;
+    height: 65px;
+    line-height: 62px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 45px;
+}
+.sub06_n42 .contSideWrap {
+    position: relative;
+    width: 45%;
+}
+.sub06_n42 .contSideSticky {
+    position: sticky;
+    top: 110px;
+}
+.sub06_n42 .conMainWrap {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 130px 0 300px;
+}
+.sub06_n42 .conMainWrap .list li:first-child img {
+    padding-top: 150px;
+}
+.sub06_n42 .conMainWrap .list li img {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    padding-top: 90px;
+}
+.sub06_n42 .conMainWrap .cont_txt h1 {
+    padding-top: 10px;
+    display: flex;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff;
+}
+.sub06_n42 .conMainWrap .cont_txt h1 b {
+    font-weight: 700;
+}
+.sub06_n42 .conMainWrap .cont_txt h1 span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ec5e00;
+    font-family: 'NanumSquare', sans-serif;
+    display: inline-block;
+    padding-right: 20px;
+}
+.sub06_s41 .video_wrap {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.sub06_s41 .video_wrap video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sub06_s42 {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0;
+}
+.sub06_s42 .contentsArea {
+    position: static;
+    background-color: #fff;
+    z-index: 1;
+    overflow: hidden;
+}
+.sub06_s42 .video_area {
+    position: static;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    height: 15vh;
+}
+.sub06_s42 .video_area .pin-spacer {
+    width: 100% !important;
+}
+.sub06_s42 .fixed_video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 100%;
+    z-index: 1;
+}
+.sub06_s42 .fixed_video .width_video {
+    position: relative;
+    margin: 0px auto;
+    width: 100%; /* width: calc(100% - 480px); */
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sub06_s42 .width_video:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url('http://www.smart-pain.com/new/images/sub/06/04_img02_bg_bk.jpg') no-repeat center;
+    background-size: cover;
+}
+.sub06_s42 .fixed_video #video {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.sub06_s42 .txt_inner {
+    position: relative;
+    margin: 0 auto;
+    width: 1280px;
+    z-index: 1;
+}
+.sub06_s42 .title {
+    position: absolute;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    top: 0;
+}
+
+.sub06_s42 .main-tit .ttit {
+    font-size: 70px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+.sub06_s42 .main-tit .ttxt {
+    font-size: 18px;
+    font-weight: 350;
+    letter-spacing: -0.06em;
+    color: #fff;
+    display: inline-block;
+    padding: 25px 40px;
+    border: 1px solid #fff;
+    border-radius: 60px;
+    line-height: 1;
+}
+.sub06_s42 .main-tit .ttxt img {
+    margin-left: 10px;
+}
+
+.sub06_s42 .flow_area {
+    padding: 250px 0 150px 530px;
+}
+.sub06_s42 .list_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.sub06_s42 .list_wrap .list {
+    padding-bottom: 100px;
+}
+.sub06_s42 .list_wrap .txt h1 {
+    font-size: 35px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 30px;
+    display: flex;
+}
+.sub06_s42 .list_wrap .txt h1 b {
+    font-weight: 700;
+}
+.sub06_s42 .list_wrap .txt h1 span {
+    display: inline-block;
+    margin-top: 11px;
+    color: #ec5e00;
+    font-size: 16px;
+    font-family: 'NanumSquare', sans-serif;
+    font-weight: 700;
+    margin-right: 10px;
+}
+/*
+.cursor .circle { border-radius:100px; will-change:transform; position:absolute;}
+.cursor .circle--1 {height:40px; width:40px; border:solid rgba(0,0,0,0.5) 1px;}
+.cursor .circle--2 {background:red; height:5px; width:5px; z-index:2;}
+*/
