@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>AssetChain</title>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+        <script type="text/javascript" src="https://unpkg.com/gsap@3.12.2/dist/ScrollToPlugin.min.js"></script>
+
+        <script
+            type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        ></script>
+        <script type="text/javascript" src="./new/js/util.lib.js"></script>
+        <script type="text/javascript" src="./new/js/common.js"></script>
+        <script type="text/javascript" src="./new/js/main.js"></script>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        />
+        <link rel="stylesheet" type="text/css" href="./new/css/p_style.css" />
+    </head>
+    <body class="intro-animation">
+        <div id="wrap">
+            <header class="header">
+                <div class="header-wrap main">
+                    <div class="logo">
+                        <a href="#" class="logo_img">AssetChain</a>
+                    </div>
+                    <div class="header container">
+                        <ul id="gnb">
+                            <li class="main_menu">
+                                <a href="#" class="titDot">거래소</a>
+                            </li>
+                            <li class="main_menu">
+                                <a href="#" class="titDot">투자정보</a>
+                                <ul class="depth02">
+                                    <li><a href="#">STX 소개</a></li>
+                                    <li><a href="#">상품리스트</a></li>
+                                    <li><a href="#">STO 뉴스</a></li>
+                                </ul>
+                            </li>
+                            <li class="main_menu">
+                                <a href="#" class="titDot">공모</a>
+                                <ul class="depth02">
+                                    <li><a href="#">공모주 청약</a></li>
+                                </ul>
+                            </li>
+                            <li class="main_menu">
+                                <a href="#" class="titDot">투자내역</a>
+                            </li>
+                            <li class="main_menu">
+                                <a href="#" class="titDot">등록</a>
+                                <ul class="depth02">
+                                    <li><a href="#">발행사 등록</a></li>
+                                    <li><a href="#">토큰 등록</a></li>
+                                </ul>
+                            </li>
+                            <li class="main_menu">
+                                <a href="#" class="titDot">고객지원</a>
+                                <ul class="depth02">
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">1:1 문의하기</a></li>
+                                    <li><a href="#">1:1 문의내역</a></li>
+                                </ul>
+                            </li>
+                            <li class="main_menu">
+                                <a href="#" class="titDot">전자투표</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sub_menuBtn all-menu">
+                        <img src="http://www.smart-pain.com/new/images/common/all_menu.png" class="img_w" />
+                    </div>
+                </div>
+            </header>
+            <a href="" class="topBtn"><img src="http://www.smart-pain.com/new/images/main/top_btn.png" /></a>
+
+            <section class="main_home Msection1">
+                <div class="borderPadding">
+                    <div class="main_bg_slider main_slider">
+                        <div class="item v1">
+                            <div
+                                class="img"
+                                style="background: url('./new/images/main/slide-1.svg') no-repeat 100% 0 / auto 60%"
+                            ></div>
+                        </div>
+                        <div class="item v2">
+                            <div
+                                class="img"
+                                style="background: url('./new/images/main/slide-2.svg') no-repeat 100% 100% / auto 90%"
+                            ></div>
+                        </div>
+                        <div class="item v3">
+                            <div
+                                class="img"
+                                style="background: url('./new/images/main/slide-3.svg') no-repeat 180% 50% / auto 90%"
+                            ></div>
+                        </div>
+                        <div class="item v4">
+                            <div
+                                class="img"
+                                style="background: url('./new/images/main/slide-4.svg') no-repeat 100% 100% / auto 85%"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="text_slider_wrap">
+                        <div class="inner">
+                            <div class="main_text_slider main_slider">
+                                <div class="item v1">
+                                    <div class="text_wrap">
+                                        <div class="title1">
+                                            <p>빠른 사업추진 가능<span class="orange_color">.</span></p>
+                                        </div>
+                                        <div class="txt1">
+                                            <p>STO 인프라 및 매매 체결 시스템 준비 시범 서비스 가동</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item v2">
+                                    <div class="text_wrap">
+                                        <div class="title1">
+                                            <p>증권 블록체인 개발 노하우<span class="orange_color">.</span></p>
+                                        </div>
+                                        <div class="txt1">
+                                            <p>
+                                                국내 주요 증권사 구축 노하우 <br />암호화폐 거래소 및 STO 인프라 구축
+                                                경험
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item v3">
+                                    <div class="text_wrap">
+                                        <div class="title1">
+                                            <p>인프라 경쟁력<span class="orange_color">.</span></p>
+                                        </div>
+                                        <div class="txt1">
+                                            <p>금융 인프라와 동일한 구조로 구현 <br />빠른 처리속도, 보완성 강화</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item v4">
+                                    <div class="text_wrap">
+                                        <div class="title1">
+                                            <p>상품 확장성<span class="orange_color">.</span></p>
+                                        </div>
+                                        <div class="txt1">
+                                            <p>
+                                                수익증권, 웹툰, 음원, 영화 등 투자계약증권 <br />다양한 상품거래가
+                                                가능한 인프라 환경
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="indicator">
+                                <div class="dot"></div>
+                                <button type="button" class="status_wrap"><span class="status stop"></span></button>
+                                <button type="button" class="btn prev"></button>
+                                <button type="button" class="btn next"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="orange_bg"></div>
+            </section>
+            <section class="Msectionnew2">
+                <div class="transition_section">
+                    <div class="flex-box">
+                        <div class="flex-box--wrap">
+                            <p class="panelsText fixedText">
+                                WELCOME TO!<br />
+                                AssetChain
+                            </p>
+                            <div class="panel cursor_wrap heightImg"></div>
+                            <div class="panel cursor_wrap hover--eff heightImg">
+                                <a href="#" data-aos="fade-up" data-aos-duration="400"> </a>
+                            </div>
+                            <div class="panel cursor_wrap hover--eff heightImg">
+                                <a href="#" data-aos="fade-up" data-aos-duration="400"> </a>
+                            </div>
+                            <div class="panel heightImg">
+                                <div class="loc_wrap" data-aos="fade-up" data-aos-delay="600" data-aos-duration="400">
+                                    <div class="cursor_wrap hover--eff">
+                                        <a href="#"> </a>
+                                    </div>
+                                    <div class="cursor_wrap hover--eff">
+                                        <a href="#"> </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel last heightImg smartnetwork">
+                                <div>
+                                    <h1>smart<br />network</h1>
+                                    <p>
+                                        증권사 솔루션 점유율 1위의 기술 경쟁력과 <br />
+                                        시장 지배력으로 Fintech 사업 선도
+                                    </p>
+                                    <a href="/new/sub/06/01.html">
+                                        <img
+                                            src="http://www.smart-pain.com/new/images/main/Msection2_img04_btntxt.png"
+                                            alt=""
+                                        />
+                                        <!-- <div class="button__bg"></div><span>스마트 네트워크 소개</span> -->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="panel"></div>
+                            <div class="panel"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Msection3">
+                <div class="flex_box">
+                    <div class="text_wrap">
+                        <div class="line_wrap msection3--line1" data-aos="fade-up" data-aos-duration="6000">
+                            <span class="text">AssetChain의 </span><span class="item_img"></span
+                            ><span class="text">5가지 경쟁력</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Msection4">
+                <div class="black_bg"></div>
+                <div class="container" style="max-width: 1700px">
+                    <div class="list_wrap list1" data-aos="fade-up">
+                        <div class="img_wrap">
+                            <div class="ani_orange left"></div>
+                            <img src="./new/images/main/Msection4_newImg01.jpg" />
+                        </div>
+                        <div class="txt_link">
+                            <div class="txt_wrap" data-aos="fade-up">
+                                <p class="eng">First</p>
+                                <h1>
+                                    증권사 솔루션 점유율 1위의
+                                    <b
+                                        >기술 경쟁력과<br />
+                                        시장 지배력으로 Fintech 사업을 선도</b
+                                    >합니다<span class="orange_color">.</span>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_wrap list2" data-aos="fade-up">
+                        <div class="txt_link left">
+                            <div class="txt_wrap" data-aos="fade-up">
+                                <p class="eng">Second</p>
+                                <h1 style="letter-spacing: -0.08em">
+                                    증권형 토큰에 비해 이해와 관련 기술 확보 및 <br />
+                                    <b>증권사 최초의 STO 파일럿 및 구축 경험</b><span class="orange_color">.</span>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="img_wrap">
+                            <div class="ani_orange right"></div>
+                            <img src="./new/images/main/Msection4_newImg01.jpg" />
+                        </div>
+                    </div>
+                    <div class="list_wrap list3" data-aos="fade-up">
+                        <div class="img_wrap">
+                            <div class="ani_orange left"></div>
+                            <img src="./new/images/main/Msection4_newImg01.jpg" />
+                        </div>
+                        <div class="txt_link">
+                            <div class="txt_wrap" data-aos="fade-up">
+                                <p class="eng">Third</p>
+                                <h1>
+                                    증권 거래소 수준의<br />
+                                    <b>신뢰성, 고 가용성, 대용량, 로우레이턴시 기술 개발 능력</b
+                                    ><span class="orange_color">.</span>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list_wrap list4" data-aos="fade-up">
+                        <div class="txt_link left" style="padding-left: 170px">
+                            <div class="txt_wrap" data-aos="fade-up">
+                                <p class="eng">Fourth</p>
+                                <h1>
+                                    <b
+                                        >자본 시장 및 금융 시장의 <br />
+                                        이해도 및 관련 서비스 기획력</b
+                                    ><span class="orange_color">.</span>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="img_wrap">
+                            <div class="ani_orange right"></div>
+                            <img src="./new/images/main/Msection4_newImg01.jpg" />
+                        </div>
+                    </div>
+                    <div class="list_wrap list5" data-aos="fade-up">
+                        <div class="img_wrap">
+                            <div class="ani_orange left"></div>
+                            <img src="./new/images/main/Msection4_newImg01.jpg" />
+                        </div>
+                        <div class="txt_link">
+                            <div class="txt_wrap" data-aos="fade-up">
+                                <p class="eng">Fifth</p>
+                                <h1 class="ani__txt__fff" data-color="black white">
+                                    증권사 연계 시<br />
+                                    <b>관련 기술적 이해도 우위</b><span class="orange_color">.</span>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Msection5">
+                <div class="black_bg"></div>
+                <div class="title_list">
+                    <span class="list_item_top">
+                        <span class="label">special</span>
+                        <span class="space"></span>
+                    </span>
+                    <span class="list_item_bottom">
+                        <span class="label">clinic</span>
+                        <span class="space"></span>
+                    </span>
+                </div>
+            </section>
+            <section class="MsectionNew6">
+                <div class="list_container cursor_wrap" data-aos="fade-up">
+                    <a href="/new/sub/02/03.html">
+                        <div class="fixed_txt">
+                            <h1>목·허리 디스크 특화 클리닉</h1>
+                        </div>
+                        <iframe
+                            src="https://player.vimeo.com/video/879280967?h=a8993ab929&autoplay=1&controls=0&loop=1&autopause=0&muted=1"
+                            allow="autoplay"
+                            frameborder="0"
+                            webkitallowfullscreen
+                            mozallowfullscreen
+                            allowfullscreen
+                        ></iframe>
+                    </a>
+                </div>
+                <div class="list_container cursor_wrap" data-aos="fade-up">
+                    <a href="/new/sub/05/01.html">
+                        <div class="fixed_txt">
+                            <h1>부위별 통증 클리닉</h1>
+                        </div>
+                        <iframe
+                            src="https://player.vimeo.com/video/889781229?h=12372c3015&autoplay=1&controls=0&loop=1&autopause=0&muted=1"
+                            allow="autoplay"
+                            frameborder="0"
+                            webkitallowfullscreen
+                            mozallowfullscreen
+                            allowfullscreen
+                        ></iframe>
+                    </a>
+                </div>
+                <div class="list_container cursor_wrap" data-aos="fade-up">
+                    <a href="/new/sub/01/05.html">
+                        <div class="fixed_txt">
+                            <h1>케이스별 집중 클리닉</h1>
+                        </div>
+                        <iframe
+                            src="https://player.vimeo.com/video/878512943?h=fa272b7a19&autoplay=1&controls=0&loop=1&autopause=0&muted=1"
+                            allow="autoplay"
+                            frameborder="0"
+                            webkitallowfullscreen
+                            mozallowfullscreen
+                            allowfullscreen
+                        ></iframe>
+                    </a>
+                </div>
+            </section>
+            <section class="MsectionNew7text">
+                <p>
+                    <img
+                        src="http://www.smart-pain.com/new/images/main/Msection72_text01.png"
+                        alt="special program for quick recovery"
+                    /><img
+                        src="http://www.smart-pain.com/new/images/main/Msection72_text01.png"
+                        alt="special program for quick recovery"
+                    />
+                </p>
+                <p>
+                    <img
+                        src="http://www.smart-pain.com/new/images/main/Msection72_text02.png"
+                        alt="special program for quick recovery"
+                    /><img
+                        src="http://www.smart-pain.com/new/images/main/Msection72_text02.png"
+                        alt="special program for quick recovery"
+                    />
+                </p>
+            </section>
+            <section class="MsectionNew7">
+                <div class="sub_top" data-aos="fade-up">
+                    <h1>토큰증권 상품<span class="orange_color">.</span></h1>
+                </div>
+                <div class="flex">
+                    <div class="MsectionNew7Lt">
+                        <div class="index-flow__side">
+                            <div class="index-flow__image">
+                                <img
+                                    src="http://www.smart-pain.com/new/images/main/Msection72_Img01.jpg"
+                                    alt=""
+                                    class="image01"
+                                />
+                                <img
+                                    src="http://www.smart-pain.com/new/images/main/Msection72_Img02.jpg"
+                                    alt=""
+                                    class="image02"
+                                />
+                                <img
+                                    src="http://www.smart-pain.com/new/images/main/Msection72_Img03.jpg"
+                                    alt=""
+                                    class="image03"
+                                />
+                                <img
+                                    src="http://www.smart-pain.com/new/images/main/Msection72_Img04.jpg"
+                                    alt=""
+                                    class="image04"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="MsectionNew7Rt">
+                        <div class="index-flow__body">
+                            <div class="index-flow__item item01" data-change-trigger>
+                                <h3 class="titleWrap">
+                                    <div class="number">
+                                        <img src="http://www.smart-pain.com/new/images/main/Msection72_num01.png" />
+                                    </div>
+                                    <div>
+                                        <div class="title">
+                                            <p>신탁수익증권</p>
+                                            <a href="/new/sub/05/01.html">
+                                                <div class="circleBtn">
+                                                    <div class="icon">
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(255 255 255 / 50%)"
+                                                                fill="none"
+                                                                class="outline"
+                                                            ></circle>
+                                                        </svg>
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(214 118 8 / 0%)"
+                                                                fill="none"
+                                                                class="outline outline2"
+                                                            ></circle>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <!-- <p>단순 통증치료를 넘어 질환의 근본적인 원인을 찾아 치료합니다.</p> -->
+                                    </div>
+                                </h3>
+                                <div class="infoWrap">
+                                    <h4 class="subtitle">스마트의 도수재활치료 POINT</h4>
+                                    <dl class="">
+                                        <div class="item">
+                                            <dt>POINT 01</dt>
+                                            <dd>개인별 1:1 맞춤 도수재활치료를 진행합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 02</dt>
+                                            <dd>전문의의 정확한 검사를 통한 빠른 진단이 가능합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 03</dt>
+                                            <dd>올바른 자세와 생활습관을 유지할 수 있도록 교육합니다.</dd>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="index-flow__item item02" data-change-trigger>
+                                <h3 class="titleWrap">
+                                    <div class="number">
+                                        <img src="http://www.smart-pain.com/new/images/main/Msection72_num02.png" />
+                                    </div>
+                                    <div>
+                                        <div class="title">
+                                            <p>슬링운동치료</p>
+                                            <a href="/new/sub/05/02.html">
+                                                <div class="circleBtn">
+                                                    <div class="icon">
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(255 255 255 / 50%)"
+                                                                fill="none"
+                                                                class="outline"
+                                                            ></circle>
+                                                        </svg>
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(214 118 8 / 0%)"
+                                                                fill="none"
+                                                                class="outline outline2"
+                                                            ></circle>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <p>신체의 불안정한 균형을 바로잡아 건강하고 바른 체형을 만듭니다.</p>
+                                    </div>
+                                </h3>
+                                <div class="infoWrap">
+                                    <h4 class="subtitle">스마트의 슬링운동치료 POINT</h4>
+                                    <dl class="">
+                                        <div class="item">
+                                            <dt>POINT 01</dt>
+                                            <dd>환자 개개인에 맞는 맞춤 프로그램을 진행합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 02</dt>
+                                            <dd>임상 경험이 풍부한 숙련된 치료사가 함께합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 03</dt>
+                                            <dd>환자에 상태에 따른 치료강도와 테크닉을 적용합니다.</dd>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="index-flow__item item03" data-change-trigger>
+                                <h3 class="titleWrap">
+                                    <div class="number">
+                                        <img src="http://www.smart-pain.com/new/images/main/Msection72_num03.png" />
+                                    </div>
+                                    <div>
+                                        <div class="title">
+                                            <p>스포츠 재활</p>
+                                            <a href="/new/sub/05/03.html">
+                                                <div class="circleBtn">
+                                                    <div class="icon">
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(255 255 255 / 50%)"
+                                                                fill="none"
+                                                                class="outline"
+                                                            ></circle>
+                                                        </svg>
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(214 118 8 / 0%)"
+                                                                fill="none"
+                                                                class="outline outline2"
+                                                            ></circle>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <p>스포츠 재활 치료를 통해 빠른 운동 복귀를 도와드립니다.</p>
+                                    </div>
+                                </h3>
+                                <div class="infoWrap">
+                                    <h4 class="subtitle">스마트의 스포츠 재활 POINT</h4>
+                                    <dl class="">
+                                        <div class="item">
+                                            <dt>POINT 01</dt>
+                                            <dd>정확한 진단을 통해 체계적인 재활치료를 진행합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 02</dt>
+                                            <dd>재발 방지를 위한 바른자세 및 운동법을 교육합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 03</dt>
+                                            <dd>빠른 기능 회복으로 스포츠 활동으로의 빠른 복귀를 돕습니다.</dd>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                            <div class="index-flow__item item04" data-change-trigger>
+                                <h3 class="titleWrap">
+                                    <div class="number">
+                                        <img src="http://www.smart-pain.com/new/images/main/Msection72_num04.png" />
+                                    </div>
+                                    <div>
+                                        <div class="title">
+                                            <p>수술 후 재활</p>
+                                            <a href="/new/sub/05/04.html">
+                                                <div class="circleBtn">
+                                                    <div class="icon">
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(255 255 255 / 50%)"
+                                                                fill="none"
+                                                                class="outline"
+                                                            ></circle>
+                                                        </svg>
+                                                        <svg
+                                                            viewBox="0 0 180 180"
+                                                            version="1.1"
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                        >
+                                                            <circle
+                                                                cx="90"
+                                                                cy="90"
+                                                                r="80"
+                                                                stroke="rgba(214 118 8 / 0%)"
+                                                                fill="none"
+                                                                class="outline outline2"
+                                                            ></circle>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <p>재발 위험을 방지하고 환자의 빠른 일상 복귀를 돕습니다.</p>
+                                    </div>
+                                </h3>
+                                <div class="infoWrap">
+                                    <h4 class="subtitle">스마트의 수술 후 재활 POINT</h4>
+                                    <dl class="">
+                                        <div class="item">
+                                            <dt>POINT 01</dt>
+                                            <dd>충분한 상담을 통해 맞춤형 치료 계획을 수립합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 02</dt>
+                                            <dd>환자의 건강 상태를 정확하게 진단하여 치료를 진행합니다.</dd>
+                                        </div>
+                                        <div class="item">
+                                            <dt>POINT 03</dt>
+                                            <dd>빠른일상으로 복귀한 뒤에도 알맞은 운동법과 관리를 교육합니다.</dd>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Msection7--text">
+                <div class="sub_top" data-aos="fade-up">
+                    <h1>meet AssetChain<span class="orange_color">.</span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </section>
+            <section class="Msection7">
+                <div class="video_wrap">
+                    <div class="Video_expand">
+                        <!-- <video
+                            autoplay=""
+                            loop=""
+                            muted=""
+                            playsinline=""
+                            preload="metadata"
+                            src="http://www.smart-pain.com/new/images/video/smart_video.mp4"
+                        >
+                            <source data-src="http://www.smart-pain.com/new/images/video/smart_video.mp4" />
+                        </video> -->
+                        <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube.com/embed/TY-H2aUtrKI"
+                            title="35,000 DOMINOES - Domino World 2019"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
+            <div id="cursor"></div>
+            <!-- 01.11 메인팝업 가이드 -->
+            <div class="layerPop-overlay"></div>
+            <!-- //01.11 메인팝업 가이드 -->
+
+            <script src="http://www.smart-pain.com/new/lib/js/main/main.js?v=20240221092849"></script>
+            <script defer>
+                $(function () {
+                    mainFunc = new $.funcMain()
+                    mainFunc.init()
+                })
+            </script>
+        </div>
+        <!--wrap-->
+        <footer data-aos="fade-up">
+            <div class="footer_top">
+                <div class="container">
+                    <div class="flex_box flex-between">
+                        <div class="left">
+                            <h1 class="tit">smart<br />pain clinic<span class="orange_color">.</span></h1>
+                            <ul class="snsList">
+                                <!-- <li class="blog"><a href="#" target="_blank">blog</a></li> -->
+                                <li class="youtube">
+                                    <a href="https://www.youtube.com/@user-ku9us4bk9m" target="_blank">youtube</a>
+                                </li>
+                                <li class="instar">
+                                    <a href="https://www.instagram.com/smart_pain/" target="_blank">instar</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <h1 class="customService">Customer Service</h1>
+                            <div class="flex_box flex-between">
+                                <div class="service">
+                                    <h2>평촌점</h2>
+                                    <p>031.425.7755</p>
+                                    <ul>
+                                        <li><span>월·목</span>am09:00-pm07:30</li>
+                                        <li><span>화·금</span>am09:00-pm06:30</li>
+                                        <li><span>수요일</span>pm02:00-pm07:00</li>
+                                        <li><span>토요일</span>am09:30-pm01:00</li>
+                                        <li><span>점심시간</span>pm01:00-pm02:00</li>
+                                        <li><span>일요일</span>휴진</li>
+                                    </ul>
+                                </div>
+                                <div class="service">
+                                    <h2>안양점</h2>
+                                    <p>031.466.7555</p>
+                                    <ul>
+                                        <li><span>평일</span>am09:00-pm08:00</li>
+                                        <li><span>토요일</span>am09:00-pm03:00</li>
+                                        <li><span>일요일</span>am09:00-pm01:00</li>
+                                        <li><span>점심시간</span>pm01:00-pm02:00</li>
+
+                                        <li><span>공휴일</span>휴진</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="flex_box flex-between">
+                        <div class="address flex_box">
+                            <dl>
+                                <dt>평촌점</dt>
+                                <dd>
+                                    상호명: 닥터황스마트마취통증의학과의원 | 대표:황인성<br />
+                                    사업자번호:378-32-01280 | 주소: 경기 안양시 동안구 시민대로 311(금강스마트빌딩
+                                    307호)
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>안양점</dt>
+                                <dd>
+                                    상호명: 스마트마취통증의학과의원 안양점 | 대표:김태준<br />
+                                    사업자번호:257-99-01555 | 주소: 경기도 안양시 만안구 안양로 307 금상타워 6층
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="links">
+                            <a href="/new/sub/06/07.html">개인정보처리방침</a>
+                            <a href="/new/sub/06/08.html">서비스이용약관</a>
+                            <a href="/new/sub/06/05.html">비급여비용안내</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="flex_box flex-between align-center">
+                        <p>COPYRIGHT (C) 2023 스마트마취통증의학과의원. ALL RIGHT RESERVED</p>
+                        <p>ALL DESIGNED BY. 오월의나무컴퍼니</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript">
+            $(window).resize(function () {
+                var docWidth = $(window).width()
+
+                if (docWidth < 1000) {
+                    var href = $(location).attr('href')
+                    var pathname = $(location).attr('pathname')
+                    //document.location.href = href.replace(__basePath + pathname , __basePath + "/m" + pathname);
+
+                    document.location.href =
+                        __basePath + '/mo' + href.substring(href.lastIndexOf(pathname) + __basePath.length, href.length)
+                }
+            })
+        </script>
+    </body>
+</html>

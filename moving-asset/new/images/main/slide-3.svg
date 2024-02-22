@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_레이어_2" data-name="레이어 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3581.36 2745.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #012dd8;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <g>
+      <polygon class="cls-2" points="450.66 2192.54 639.41 2003.8 517.88 1882.27 329.14 2071.02 135.67 1877.56 0 2013.23 193.46 2206.69 4.72 2395.44 126.24 2516.96 314.99 2328.22 508.45 2521.68 644.12 2386 450.66 2192.54"/>
+      <circle class="cls-2" cx="2301.11" cy="1280.25" r="1280.25"/>
+      <g>
+        <rect class="cls-2" x="1138.01" y="2722.59" width="22.91" height="22.91" transform="translate(-1584.58 3883.51) rotate(-90)"/>
+        <rect class="cls-2" x="1067.54" y="2722.59" width="22.91" height="22.91" transform="translate(-1655.05 3813.04) rotate(-90)"/>
+        <rect class="cls-2" x="997.07" y="2722.59" width="22.91" height="22.91" transform="translate(-1725.52 3742.58) rotate(-90)"/>
+        <rect class="cls-2" x="926.61" y="2722.59" width="22.91" height="22.91" transform="translate(-1795.98 3672.11) rotate(-90)"/>
+        <rect class="cls-2" x="856.14" y="2722.59" width="22.91" height="22.91" transform="translate(-1866.45 3601.64) rotate(-90)"/>
+        <rect class="cls-2" x="785.67" y="2722.59" width="22.91" height="22.91" transform="translate(-1936.92 3531.17) rotate(-90)"/>
+        <rect class="cls-2" x="715.2" y="2722.59" width="22.91" height="22.91" transform="translate(-2007.39 3460.7) rotate(-90)"/>
+      </g>
+      <g>
+        <rect class="cls-1" x="2065.18" y="578.07" width="22.91" height="22.91" transform="translate(1487.11 2666.16) rotate(-90)"/>
+        <rect class="cls-1" x="1994.71" y="578.07" width="22.91" height="22.91" transform="translate(1416.64 2595.7) rotate(-90)"/>
+        <rect class="cls-1" x="1924.24" y="578.07" width="22.91" height="22.91" transform="translate(1346.17 2525.23) rotate(-90)"/>
+        <rect class="cls-1" x="1853.78" y="578.07" width="22.91" height="22.91" transform="translate(1275.71 2454.76) rotate(-90)"/>
+        <rect class="cls-1" x="1783.31" y="578.07" width="22.91" height="22.91" transform="translate(1205.24 2384.29) rotate(-90)"/>
+        <rect class="cls-1" x="1712.84" y="578.07" width="22.91" height="22.91" transform="translate(1134.77 2313.82) rotate(-90)"/>
+        <rect class="cls-1" x="1642.37" y="578.07" width="22.91" height="22.91" transform="translate(1064.3 2243.36) rotate(-90)"/>
+      </g>
+      <path class="cls-2" d="M1037.29,2238.08h14.87v-14.56h8.56v14.56h14.87v9.19h-14.87v14.56h-8.56v-14.56h-14.87v-9.19Z"/>
+      <path class="cls-1" d="M3112.3,1100.65l-86.8-86.8-84.68,84.68-58.04-58.04,84.68-84.68-86.8-86.8,64.38-64.39,86.8,86.8,84.68-84.68,58.04,58.04-84.68,84.68,86.8,86.8-64.39,64.39ZM3025.5,1006.82l86.8,86.8,57.36-57.36-86.8-86.8,84.68-84.68-51.01-51.01-84.68,84.68-86.8-86.8-57.36,57.36,86.8,86.8-84.68,84.68,51.01,51.01,84.68-84.68Z"/>
+      <polygon class="cls-1" points="1759.34 2042.85 1692.29 2009.62 1694.95 2004.24 1759.34 2036.16 1825.06 2003.58 1890.78 2036.16 1956.5 2003.58 2023.56 2036.82 2020.9 2042.19 1956.5 2010.28 1890.78 2042.85 1825.06 2010.28 1759.34 2042.85"/>
+      <g>
+        <circle class="cls-1" cx="2530.93" cy="2275.85" r="8.46"/>
+        <circle class="cls-1" cx="2571.95" cy="2275.85" r="8.46"/>
+        <circle class="cls-1" cx="2612.97" cy="2275.85" r="8.46"/>
+      </g>
+      <path class="cls-1" d="M2624.54,359.98h14.87v-14.56h8.56v14.56h14.87v9.19h-14.87v14.56h-8.56v-14.56h-14.87v-9.19Z"/>
+    </g>
+  </g>
+</svg>
